@@ -35,7 +35,7 @@ msgstr "Oznake projekta"
 
 #. module: project_tag_hierarchy
 #. odoo-python
-#: code:addons/project_tag_hierarchy/models/project_tags.py:0
+#: code:addons/project_tag_hierarchy/models/project_tags.py
 #, python-format
 msgid "You can not create recursive tags."
 msgstr "You can not create recursive tags."

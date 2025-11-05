@@ -15,48 +15,42 @@ msgstr ""
 
 #. module: project_scrum
 #. odoo-python
-#: code:addons/project_scrum/models/project_sprint.py:0
-#: model:ir.model.fields.selection,name:project_scrum.selection__project_sprint__date_option__1_months
+#: code:addons/project_scrum/models/project_sprint.py
 #, python-format
 msgid "1 Month"
 msgstr "1 mjesec"
 
 #. module: project_scrum
 #. odoo-python
-#: code:addons/project_scrum/models/project_sprint.py:0
-#: model:ir.model.fields.selection,name:project_scrum.selection__project_sprint__date_option__1_weeks
+#: code:addons/project_scrum/models/project_sprint.py
 #, python-format
 msgid "1 Week"
 msgstr "1 tjedan"
 
 #. module: project_scrum
 #. odoo-python
-#: code:addons/project_scrum/models/project_sprint.py:0
-#: model:ir.model.fields.selection,name:project_scrum.selection__project_sprint__date_option__1_years
+#: code:addons/project_scrum/models/project_sprint.py
 #, python-format
 msgid "1 Year"
 msgstr "1 godina"
 
 #. module: project_scrum
 #. odoo-python
-#: code:addons/project_scrum/models/project_sprint.py:0
-#: model:ir.model.fields.selection,name:project_scrum.selection__project_sprint__date_option__2_months
+#: code:addons/project_scrum/models/project_sprint.py
 #, python-format
 msgid "2 Month"
 msgstr "2 meseca"
 
 #. module: project_scrum
 #. odoo-python
-#: code:addons/project_scrum/models/project_sprint.py:0
-#: model:ir.model.fields.selection,name:project_scrum.selection__project_sprint__date_option__2_weeks
+#: code:addons/project_scrum/models/project_sprint.py
 #, python-format
 msgid "2 Weeks"
 msgstr "2 nedelje"
 
 #. module: project_scrum
 #. odoo-python
-#: code:addons/project_scrum/models/project_sprint.py:0
-#: model:ir.model.fields.selection,name:project_scrum.selection__project_sprint__date_option__2_years
+#: code:addons/project_scrum/models/project_sprint.py
 #, python-format
 msgid "2 Years"
 msgstr "2 godine"
@@ -68,6 +62,9 @@ msgid ""
 "                                Tasks\n"
 "                            </span>"
 msgstr ""
+"<span class=\"o_stat_text\">\n"
+"                                Zadaci\n"
+"                            </span>"
 
 #. module: project_scrum
 #: model_terms:ir.ui.view,arch_db:project_scrum.project_project_view_form_inherit
@@ -76,6 +73,9 @@ msgid ""
 "                            Backlog\n"
 "                        </span>"
 msgstr ""
+"<span class=\"o_stat_text\">\n"
+"                            Zaostaci\n"
+"                        </span>"
 
 #. module: project_scrum
 #: model_terms:ir.ui.view,arch_db:project_scrum.project_project_view_form_inherit
@@ -84,6 +84,9 @@ msgid ""
 "                            Sprints\n"
 "                        </span>"
 msgstr ""
+"<span class=\"o_stat_text\">\n"
+"                            Sprints\n"
+"                        </span>"
 
 #. module: project_scrum
 #: model:ir.model.fields,field_description:project_scrum.field_project_sprint__message_needaction
@@ -117,8 +120,7 @@ msgstr "Broj priloga"
 
 #. module: project_scrum
 #. odoo-python
-#: code:addons/project_scrum/models/project.py:0
-#: model_terms:ir.ui.view,arch_db:project_scrum.project_project_view_kanban_inherit
+#: code:addons/project_scrum/models/project.py
 #, python-format
 msgid "Backlog"
 msgstr "Zaostatak"
@@ -140,8 +142,7 @@ msgstr "Kreirano"
 
 #. module: project_scrum
 #. odoo-python
-#: code:addons/project_scrum/models/project_sprint.py:0
-#: model:ir.model.fields.selection,name:project_scrum.selection__project_sprint__date_option__custom
+#: code:addons/project_scrum/models/project_sprint.py
 #, python-format
 msgid "Custom"
 msgstr "Prilagođeno"
@@ -173,14 +174,11 @@ msgstr "Prikazani naziv"
 
 #. module: project_scrum
 #: model:ir.model.fields.selection,name:project_scrum.selection__project_sprint__state__done
-#: model_terms:ir.ui.view,arch_db:project_scrum.project_sprint_view_form
-#: model_terms:ir.ui.view,arch_db:project_scrum.project_sprint_view_search
 msgid "Done"
 msgstr "Gotovo"
 
 #. module: project_scrum
 #: model:ir.model.fields.selection,name:project_scrum.selection__project_sprint__state__draft
-#: model_terms:ir.ui.view,arch_db:project_scrum.project_sprint_view_search
 msgid "Draft"
 msgstr "U pripremi"
 
@@ -191,8 +189,7 @@ msgstr "Datum završetka"
 
 #. module: project_scrum
 #. odoo-python
-#: code:addons/project_scrum/models/project_sprint.py:0
-#: model:ir.model.constraint,message:project_scrum.constraint_project_sprint_date_check
+#: code:addons/project_scrum/models/project_sprint.py
 #, python-format
 msgid "Error: End date must be greater than start date!"
 msgstr "Greška: Datum završetka mora biti veći od datuma početka!"
@@ -344,8 +341,6 @@ msgstr "Broj poruka sa greškama pri isporuci"
 
 #. module: project_scrum
 #: model:ir.model,name:project_scrum.model_project_project
-#: model:ir.model.fields,field_description:project_scrum.field_project_sprint__project_id
-#: model_terms:ir.ui.view,arch_db:project_scrum.project_sprint_view_search
 msgid "Project"
 msgstr "Projekat"
 
@@ -361,7 +356,6 @@ msgstr "Odgovorni korisnik"
 
 #. module: project_scrum
 #: model:ir.model.fields,field_description:project_scrum.field_project_task__sprint_id
-#: model_terms:ir.ui.view,arch_db:project_scrum.project_task_inherit_search_view
 msgid "Sprint"
 msgstr "Sprint"
 
@@ -382,19 +376,14 @@ msgstr "Stanje sprinta"
 
 #. module: project_scrum
 #. odoo-python
-#: code:addons/project_scrum/models/project.py:0
+#: code:addons/project_scrum/models/project.py
 #, python-format
 msgid "Sprint Timeline"
 msgstr "Vremenska linija sprinta"
 
 #. module: project_scrum
 #. odoo-python
-#: code:addons/project_scrum/models/project.py:0
-#: model:ir.actions.act_window,name:project_scrum.project_sprint_action
-#: model:ir.model.fields,field_description:project_scrum.field_project_project__sprint_ids
-#: model:ir.ui.menu,name:project_scrum.project_sprint_menu
-#: model_terms:ir.ui.view,arch_db:project_scrum.project_project_view_kanban_inherit
-#: model_terms:ir.ui.view,arch_db:project_scrum.view_sprint_timeline
+#: code:addons/project_scrum/models/project.py
 #, python-format
 msgid "Sprints"
 msgstr "Sprintovi"
@@ -416,7 +405,6 @@ msgstr "Početni datum"
 
 #. module: project_scrum
 #: model:ir.model.fields,field_description:project_scrum.field_project_sprint__state
-#: model_terms:ir.ui.view,arch_db:project_scrum.project_sprint_view_search
 msgid "State"
 msgstr "Status"
 
@@ -428,6 +416,10 @@ msgid ""
 "Today: Activity date is today\n"
 "Planned: Future activities."
 msgstr ""
+"Status baziran na aktivnostima\n"
+"Zakašnjelo: Rok je već prošao\n"
+"Danas: Datum aktivnosti je danas\n"
+"Planirano: Buduće aktivnosti."
 
 #. module: project_scrum
 #: model:ir.model,name:project_scrum.model_project_task
@@ -436,8 +428,7 @@ msgstr "Zadatak"
 
 #. module: project_scrum
 #. odoo-python
-#: code:addons/project_scrum/models/project_sprint.py:0
-#: model:ir.model.fields,field_description:project_scrum.field_project_sprint__task_ids
+#: code:addons/project_scrum/models/project_sprint.py
 #, python-format
 msgid "Tasks"
 msgstr "Zadaci"
@@ -449,7 +440,7 @@ msgstr "Broj zadataka"
 
 #. module: project_scrum
 #. odoo-python
-#: code:addons/project_scrum/models/project_task.py:0
+#: code:addons/project_scrum/models/project_task.py
 #, python-format
 msgid "The assignees must be part of the sprint."
 msgstr "Dodeljeni moraju biti deo sprinta."
@@ -461,7 +452,6 @@ msgstr "Vrsta aktivnosti iznimke na zapisu."
 
 #. module: project_scrum
 #: model:ir.actions.server,name:project_scrum.cron_update_sprint_state_ir_actions_server
-#: model:ir.cron,cron_name:project_scrum.cron_update_sprint_state
 msgid "Update sprint state"
 msgstr "Ažuriraj stanje sprinta"
 

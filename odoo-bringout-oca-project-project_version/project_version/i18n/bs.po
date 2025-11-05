@@ -55,15 +55,11 @@ msgstr "Naziv:"
 
 #. module: project_version
 #: model:ir.model,name:project_version.model_project_project
-#: model:ir.model.fields,field_description:project_version.field_project_version__project_id
 msgid "Project"
 msgstr "Projekat"
 
 #. module: project_version
 #: model:ir.actions.act_window,name:project_version.action_project_version
-#: model:ir.model,name:project_version.model_project_version
-#: model:ir.ui.menu,name:project_version.menu_action_project_version
-#: model_terms:ir.ui.view,arch_db:project_version.project_version_form
 msgid "Project Version"
 msgstr "Projekat Version"
 
@@ -74,8 +70,5 @@ msgstr "Zadatak"
 
 #. module: project_version
 #: model:ir.model.fields,field_description:project_version.field_project_project__version_ids
-#: model:ir.model.fields,field_description:project_version.field_project_task__version_id
-#: model_terms:ir.ui.view,arch_db:project_version.project_project_version_form
-#: model_terms:ir.ui.view,arch_db:project_version.project_task_search
 msgid "Version"
-msgstr "Version"
+msgstr "Verzija"

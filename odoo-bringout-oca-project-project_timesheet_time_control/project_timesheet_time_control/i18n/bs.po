@@ -13,29 +13,39 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
+# taken from hr.po
 #. module: project_timesheet_time_control
 #. odoo-python
-#: code:addons/project_timesheet_time_control/wizards/hr_timesheet_switch.py:0
+#: code:addons/project_timesheet_time_control/wizards/hr_timesheet_switch.py
 #, python-format
 msgid ""
 "%d running timers found. Cannot know which one to stop. Please stop them "
 "manually."
 msgstr ""
+"%d pokrenutih tajmera pronađeno. Nije moguće utvrditi koji treba zaustaviti."
+" Molim zaustaviti ručno."
 
+# taken from hr.po
 #. module: project_timesheet_time_control
 #: model_terms:ir.ui.view,arch_db:project_timesheet_time_control.hr_timesheet_switch_form
 msgid ""
 ".\n"
 "                            If you continue, it will be stopped with"
 msgstr ""
+".\n"
+"                            ako nastaviš, biti će također zaustavljeno"
 
+# taken from hr.po
 #. module: project_timesheet_time_control
 #: model_terms:ir.ui.view,arch_db:project_timesheet_time_control.view_kanban_account_analytic_line
 msgid ""
 "<br/>\n"
 "                    <span>to</span>"
 msgstr ""
+"<br/>\n"
+"                    <span>do</span>"
 
+# taken from hr.po
 #. module: project_timesheet_time_control
 #: model_terms:ir.ui.view,arch_db:project_timesheet_time_control.view_project_kanban_inherited
 msgid ""
@@ -44,7 +54,12 @@ msgid ""
 "                            Start work\n"
 "                        </span>"
 msgstr ""
+"<span class=\"o_label\">\n"
+"                            <i class=\"fa fa-lg fa-play-circle text-success\"/>\n"
+"                            Pokreni rad\n"
+"                        </span>"
 
+# taken from hr.po
 #. module: project_timesheet_time_control
 #: model_terms:ir.ui.view,arch_db:project_timesheet_time_control.view_project_kanban_inherited
 msgid ""
@@ -53,71 +68,84 @@ msgid ""
 "                            Stop work\n"
 "                        </span>"
 msgstr ""
+"<span class=\"o_label\">\n"
+"                            <i class=\"fa fa-lg fa-stop-circle text-warning\"/>\n"
+"                            Zaustavi rad\n"
+"                        </span>"
 
+# taken from hr.po
 #. module: project_timesheet_time_control
 #: model:ir.model,name:project_timesheet_time_control.model_account_analytic_line
 msgid "Analytic Line"
 msgstr "Stavka analitike"
 
+# taken from hr.po
 #. module: project_timesheet_time_control
 #: model_terms:ir.ui.view,arch_db:project_timesheet_time_control.hr_timesheet_switch_form
 msgid "Cancel"
 msgstr "Odustani"
 
+# taken from hr.po
 #. module: project_timesheet_time_control
 #. odoo-python
-#: code:addons/project_timesheet_time_control/models/account_analytic_line.py:0
+#: code:addons/project_timesheet_time_control/models/account_analytic_line.py
 #, python-format
 msgid ""
 "Cannot stop timer %d because it is not running. Refresh the page and check "
 "again."
 msgstr ""
+"Nije moguće zaustaviti tajmer %d jer nije pokrenut. Osvježi pa pokušaj "
+"ponovno."
 
+# taken from hr.po
 #. module: project_timesheet_time_control
 #: model:ir.model.fields,field_description:project_timesheet_time_control.field_hr_timesheet_switch__company_id
 msgid "Company"
 msgstr "Tvrtka"
 
+# taken from hr.po
 #. module: project_timesheet_time_control
 #: model:ir.model.fields,field_description:project_timesheet_time_control.field_hr_timesheet_switch__create_uid
 msgid "Created by"
 msgstr "Kreirao"
 
+# taken from hr.po
 #. module: project_timesheet_time_control
 #: model:ir.model.fields,field_description:project_timesheet_time_control.field_hr_timesheet_switch__create_date
 msgid "Created on"
 msgstr "Kreirano"
 
+# taken from hr.po
 #. module: project_timesheet_time_control
 #: model_terms:ir.ui.view,arch_db:project_timesheet_time_control.view_task_form2_inherited
 msgid "Date"
 msgstr "Datum"
 
+# taken from hr.po
 #. module: project_timesheet_time_control
 #: model:ir.model.fields,field_description:project_timesheet_time_control.field_hr_timesheet_switch__name
 msgid "Description"
 msgstr "Opis"
 
+# taken from hr.po
 #. module: project_timesheet_time_control
 #: model:ir.model.fields,field_description:project_timesheet_time_control.field_hr_timesheet_switch__display_name
 msgid "Display Name"
 msgstr "Naziv za prikaz"
 
+# taken from hr.po
 #. module: project_timesheet_time_control
 #: model:ir.model.fields,field_description:project_timesheet_time_control.field_account_analytic_line__date_time_end
-#: model:ir.model.fields,field_description:project_timesheet_time_control.field_hr_timesheet_switch__date_time_end
 msgid "End Time"
 msgstr "Kraj vremena"
 
+# taken from hr.po
 #. module: project_timesheet_time_control
 #: model_terms:ir.ui.view,arch_db:project_timesheet_time_control.project_invoice_form
-#: model_terms:ir.ui.view,arch_db:project_timesheet_time_control.view_kanban_account_analytic_line
-#: model_terms:ir.ui.view,arch_db:project_timesheet_time_control.view_project_tree
-#: model_terms:ir.ui.view,arch_db:project_timesheet_time_control.view_task_form2_inherited
-#: model_terms:ir.ui.view,arch_db:project_timesheet_time_control.view_task_tree2_inherited
 msgid "End work"
 msgstr "Kraj rada"
 
+# taken from hr.po
 #. module: project_timesheet_time_control
 #: model:ir.model,name:project_timesheet_time_control.model_hr_timesheet_switch
 msgid "Helper to quickly switch between timesheet lines"
@@ -128,24 +156,25 @@ msgstr "Pomoć za vrže prebacivanje između linija"
 msgid "ID"
 msgstr "ID"
 
+# taken from hr.po
 #. module: project_timesheet_time_control
 #: model:ir.model.fields,help:project_timesheet_time_control.field_account_analytic_line__show_time_control
-#: model:ir.model.fields,help:project_timesheet_time_control.field_hr_timesheet_time_control_mixin__show_time_control
-#: model:ir.model.fields,help:project_timesheet_time_control.field_project_project__show_time_control
-#: model:ir.model.fields,help:project_timesheet_time_control.field_project_task__show_time_control
 msgid "Indicate which time control button to show, if any."
 msgstr "Kontoliraj koji gumb će se prikazati."
 
+# taken from hr.po
 #. module: project_timesheet_time_control
 #: model:ir.model.fields,field_description:project_timesheet_time_control.field_hr_timesheet_switch____last_update
 msgid "Last Modified on"
 msgstr "Zadnje uređivano"
 
+# taken from hr.po
 #. module: project_timesheet_time_control
 #: model:ir.model.fields,field_description:project_timesheet_time_control.field_hr_timesheet_switch__write_uid
 msgid "Last Updated by"
 msgstr "Zadnje ažurirano od"
 
+# taken from hr.po
 #. module: project_timesheet_time_control
 #: model:ir.model.fields,field_description:project_timesheet_time_control.field_hr_timesheet_switch__write_date
 msgid "Last Updated on"
@@ -156,165 +185,159 @@ msgstr "Zadnje ažurirano"
 msgid "Mixin for records related with timesheet lines"
 msgstr "Mixin for records related with timesheet lines"
 
+# taken from hr.po
 #. module: project_timesheet_time_control
 #. odoo-python
-#: code:addons/project_timesheet_time_control/models/hr_timesheet_time_control_mixin.py:0
+#: code:addons/project_timesheet_time_control/models/hr_timesheet_time_control_mixin.py
 #, python-format
 msgid ""
 "No running timer found in %(model)s %(record)s. Refresh the page and check "
 "again."
-msgstr ""
+msgstr "Nema pokrenutih tajmera %(model)s %(record)s. Osvježi i pokušaj opet."
 
+# taken from hr.po
 #. module: project_timesheet_time_control
 #: model:ir.model.fields,field_description:project_timesheet_time_control.field_hr_timesheet_switch__analytic_line_id
 msgid "Origin line"
 msgstr "Izvorna linija"
 
+# taken from hr.po
 #. module: project_timesheet_time_control
 #: model:ir.model.fields,field_description:project_timesheet_time_control.field_hr_timesheet_switch__running_timer_id
-#: model_terms:ir.ui.view,arch_db:project_timesheet_time_control.hr_timesheet_switch_form
 msgid "Previous timer"
 msgstr "Prethodni tajmer"
 
+# taken from hr.po
 #. module: project_timesheet_time_control
 #: model:ir.model.fields,field_description:project_timesheet_time_control.field_hr_timesheet_switch__running_timer_duration
 msgid "Previous timer duration"
 msgstr "Trajanje prethodnog tajmera"
 
+# taken from hr.po
 #. module: project_timesheet_time_control
 #: model:ir.model.fields,field_description:project_timesheet_time_control.field_hr_timesheet_switch__running_timer_start
 msgid "Previous timer start"
 msgstr "Početak prethodnog tajmera"
 
+# taken from hr.po
 #. module: project_timesheet_time_control
 #: model:ir.model,name:project_timesheet_time_control.model_project_project
-#: model:ir.model.fields,field_description:project_timesheet_time_control.field_hr_timesheet_switch__project_id
 msgid "Project"
 msgstr "Projekt"
 
+# taken from hr.po
 #. module: project_timesheet_time_control
 #: model:ir.model.fields.selection,name:project_timesheet_time_control.selection__account_analytic_line__show_time_control__resume
 msgid "Resume"
 msgstr "Nastavi"
 
+# taken from hr.po
 #. module: project_timesheet_time_control
 #. odoo-python
-#: code:addons/project_timesheet_time_control/models/account_analytic_line.py:0
-#: model_terms:ir.ui.view,arch_db:project_timesheet_time_control.account_analytic_line_tree
-#: model_terms:ir.ui.view,arch_db:project_timesheet_time_control.hr_timesheet_line_form
-#: model_terms:ir.ui.view,arch_db:project_timesheet_time_control.view_kanban_account_analytic_line
-#: model_terms:ir.ui.view,arch_db:project_timesheet_time_control.view_task_form2_inherited
+#: code:addons/project_timesheet_time_control/models/account_analytic_line.py
 #, python-format
 msgid "Resume work"
 msgstr "Nastavi rad"
 
+# taken from hr.po
 #. module: project_timesheet_time_control
 #: model:ir.model.fields,field_description:project_timesheet_time_control.field_account_analytic_line__show_time_control
-#: model:ir.model.fields,field_description:project_timesheet_time_control.field_hr_timesheet_time_control_mixin__show_time_control
-#: model:ir.model.fields,field_description:project_timesheet_time_control.field_project_project__show_time_control
-#: model:ir.model.fields,field_description:project_timesheet_time_control.field_project_task__show_time_control
 msgid "Show Time Control"
 msgstr "Prikaži kontrole vremena"
 
+# taken from hr.po
 #. module: project_timesheet_time_control
 #: model:ir.model.fields.selection,name:project_timesheet_time_control.selection__hr_timesheet_time_control_mixin__show_time_control__start
-#: model:ir.model.fields.selection,name:project_timesheet_time_control.selection__project_project__show_time_control__start
-#: model:ir.model.fields.selection,name:project_timesheet_time_control.selection__project_task__show_time_control__start
 msgid "Start"
 msgstr "Pokreni"
 
+# taken from hr.po
 #. module: project_timesheet_time_control
 #: model:ir.model.fields,field_description:project_timesheet_time_control.field_account_analytic_line__date_time
-#: model:ir.model.fields,field_description:project_timesheet_time_control.field_hr_timesheet_switch__date_time
 msgid "Start Time"
 msgstr "Početak vremena"
 
+# taken from hr.po
 #. module: project_timesheet_time_control
 #: model_terms:ir.ui.view,arch_db:project_timesheet_time_control.hr_timesheet_switch_form
 msgid "Start new timer"
 msgstr "Datum"
 
+# taken from hr.po
 #. module: project_timesheet_time_control
 #. odoo-python
-#: code:addons/project_timesheet_time_control/models/hr_timesheet_time_control_mixin.py:0
-#: model:ir.actions.act_window,name:project_timesheet_time_control.hr_timesheet_switch_action
-#: model:ir.ui.menu,name:project_timesheet_time_control.hr_timesheet_switch_menu
-#: model_terms:ir.ui.view,arch_db:project_timesheet_time_control.project_invoice_form
-#: model_terms:ir.ui.view,arch_db:project_timesheet_time_control.view_kanban_account_analytic_line
-#: model_terms:ir.ui.view,arch_db:project_timesheet_time_control.view_project_tree
-#: model_terms:ir.ui.view,arch_db:project_timesheet_time_control.view_task_form2_inherited
-#: model_terms:ir.ui.view,arch_db:project_timesheet_time_control.view_task_kanban
-#: model_terms:ir.ui.view,arch_db:project_timesheet_time_control.view_task_tree2_inherited
+#: code:addons/project_timesheet_time_control/models/hr_timesheet_time_control_mixin.py
 #, python-format
 msgid "Start work"
 msgstr "Pokreni rad"
 
+# taken from hr.po
 #. module: project_timesheet_time_control
 #: model:ir.model.fields.selection,name:project_timesheet_time_control.selection__account_analytic_line__show_time_control__stop
-#: model:ir.model.fields.selection,name:project_timesheet_time_control.selection__hr_timesheet_time_control_mixin__show_time_control__stop
-#: model:ir.model.fields.selection,name:project_timesheet_time_control.selection__project_project__show_time_control__stop
-#: model:ir.model.fields.selection,name:project_timesheet_time_control.selection__project_task__show_time_control__stop
 msgid "Stop"
 msgstr "Zaustavi"
 
+# taken from hr.po
 #. module: project_timesheet_time_control
 #: model_terms:ir.ui.view,arch_db:project_timesheet_time_control.hr_timesheet_switch_form
 msgid "Stop previous timer and start the new one"
 msgstr "Zasutavi prethodni tajmer i pokreni novi"
 
+# taken from hr.po
 #. module: project_timesheet_time_control
 #: model_terms:ir.ui.view,arch_db:project_timesheet_time_control.hr_timesheet_switch_form
 msgid "Stop that very old timer and start the new one"
 msgstr "Zaustavi stari tajmer i pokreni novi"
 
+# taken from hr.po
 #. module: project_timesheet_time_control
 #: model_terms:ir.ui.view,arch_db:project_timesheet_time_control.account_analytic_line_tree
-#: model_terms:ir.ui.view,arch_db:project_timesheet_time_control.hr_timesheet_line_form
-#: model_terms:ir.ui.view,arch_db:project_timesheet_time_control.project_invoice_form
-#: model_terms:ir.ui.view,arch_db:project_timesheet_time_control.view_kanban_account_analytic_line
-#: model_terms:ir.ui.view,arch_db:project_timesheet_time_control.view_project_tree
-#: model_terms:ir.ui.view,arch_db:project_timesheet_time_control.view_task_form2_inherited
-#: model_terms:ir.ui.view,arch_db:project_timesheet_time_control.view_task_kanban
-#: model_terms:ir.ui.view,arch_db:project_timesheet_time_control.view_task_tree2_inherited
 msgid "Stop work"
 msgstr "Zaustavi rad"
 
+# taken from hr.po
 #. module: project_timesheet_time_control
 #: model:ir.model,name:project_timesheet_time_control.model_project_task
-#: model:ir.model.fields,field_description:project_timesheet_time_control.field_hr_timesheet_switch__task_id
 msgid "Task"
 msgstr "Zadatak"
 
+# taken from hr.po
 #. module: project_timesheet_time_control
 #: model_terms:ir.ui.view,arch_db:project_timesheet_time_control.hr_timesheet_switch_form
 msgid "That is a lot of time! Make sure it is fine before saving."
 msgstr "To je baš dosta vremena! Pobrini se da je sve ok prije spremanja."
 
+# taken from hr.po
 #. module: project_timesheet_time_control
 #: model_terms:ir.ui.view,arch_db:project_timesheet_time_control.hr_timesheet_switch_form
 msgid "The previous timer is old. Do you really want to stop it now?"
 msgstr "Prethodni tajmer je star. Želite li ga sada zaustaviti?"
 
+# taken from hr.po
 #. module: project_timesheet_time_control
 #: model:ir.model.fields,help:project_timesheet_time_control.field_hr_timesheet_switch__running_timer_id
 msgid "This timer is running and will be stopped"
 msgstr "Tajmer je u tijeku i biti će zaustavljen"
 
+# taken from hr.po
 #. module: project_timesheet_time_control
 #: model:ir.model.fields,help:project_timesheet_time_control.field_hr_timesheet_switch__running_timer_duration
 msgid "When the previous timer is stopped, it will save this duration."
 msgstr "Kada se prethodni tajmer zaustavi, pohranit će ovo trajanje."
 
+# taken from hr.po
 #. module: project_timesheet_time_control
 #: model_terms:ir.ui.view,arch_db:project_timesheet_time_control.hr_timesheet_switch_form
 msgid "You have a running timer called"
 msgstr "Imate pokrenut tajmer"
 
+# taken from hr.po
 #. module: project_timesheet_time_control
 #: model_terms:ir.ui.view,arch_db:project_timesheet_time_control.hr_timesheet_switch_form
 msgid "and started at"
 msgstr "i započet u"
 
+# taken from hr.po
 #. module: project_timesheet_time_control
 #: model_terms:ir.ui.view,arch_db:project_timesheet_time_control.hr_timesheet_switch_form
 msgid "hour(s)."

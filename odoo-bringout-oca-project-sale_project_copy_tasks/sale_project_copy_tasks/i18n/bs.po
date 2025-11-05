@@ -39,36 +39,52 @@ msgstr "ID"
 msgid "Last Modified on"
 msgstr "Zadnje mijenjano"
 
-#. module: sale_project_service_tracking_copy_tasks
-#: model:ir.model.fields,help:sale_project_service_tracking_copy_tasks.field_product_product__service_tracking
-#: model:ir.model.fields,help:sale_project_service_tracking_copy_tasks.field_product_template__service_tracking
+#. module: sale_project_copy_tasks
+#: model:ir.model.fields,help:sale_project_copy_tasks.field_product_product__service_tracking
 msgid ""
 "On Sales order confirmation, this product can generate a project and/or task.         From those, you can track the service you are selling.\n"
 "         'In sale order's project': Will use the sale order's configured project if defined or fallback to         creating a new project based on the selected template."
 msgstr ""
+"Na potvrdi prodajnog naloga, ovaj proizvod može generirati projekt i/ili zadatak. Od njih možete pratiti uslugu koju prodajete.\n"
+"         'U projektu prodajnog naloga': Koristit će konfiguriran projekt prodajnog naloga ako je definiran ili će se vratiti na kreiranje novog projekta na temelju odabranog predloška."
 
 #. module: sale_project_service_tracking_copy_tasks
 #: model:ir.model,name:sale_project_service_tracking_copy_tasks.model_product_template
 msgid "Product Template"
 msgstr "Predložak artikla"
 
-#. module: sale_project_service_tracking_copy_tasks
-#: model_terms:ir.ui.view,arch_db:sale_project_service_tracking_copy_tasks.view_order_form_inherit_sale_project
+#. module: sale_project_copy_tasks
+#: model_terms:ir.ui.view,arch_db:sale_project_copy_tasks.view_order_form_inherit_sale_project_copy_taks
 msgid "Project"
 msgstr "Projekat"
 
-#. module: sale_project_service_tracking_copy_tasks
-#: model:ir.model,name:sale_project_service_tracking_copy_tasks.model_sale_order
+#. module: sale_project_copy_tasks
+#: model:ir.model,name:sale_project_copy_tasks.model_sale_order
 msgid "Sales Order"
 msgstr "Prodajni nalog"
 
-#. module: sale_project_service_tracking_copy_tasks
-#: model:ir.model,name:sale_project_service_tracking_copy_tasks.model_sale_order_line
+#. module: sale_project_copy_tasks
+#: model:ir.model,name:sale_project_copy_tasks.model_sale_order_line
 msgid "Sales Order Line"
-msgstr "Stavka prodajne narudžbe"
+msgstr "Red prodajnog naloga"
 
 #. module: sale_project_service_tracking_copy_tasks
 #: model:ir.model.fields,field_description:sale_project_service_tracking_copy_tasks.field_product_product__service_tracking
 #: model:ir.model.fields,field_description:sale_project_service_tracking_copy_tasks.field_product_template__service_tracking
 msgid "Service Tracking"
 msgstr "Praćenje usluge"
+
+#. module: sale_project_copy_tasks
+#: model:ir.model.fields.selection,name:sale_project_copy_tasks.selection__product_template__service_tracking__copy_tasks_in_project
+msgid "Copy tasks into sale order's project"
+msgstr "Kopiraj zadatke u projekt prodajnog naloga"
+
+#. module: sale_project_copy_tasks
+#: model:ir.model.fields,field_description:sale_project_copy_tasks.field_product_product__service_tracking
+msgid "Create on Order"
+msgstr "Kreiraj pri narudžbi"
+
+#. module: sale_project_copy_tasks
+#: model:ir.model,name:sale_project_copy_tasks.model_product_template
+msgid "Product"
+msgstr "Proizvod"

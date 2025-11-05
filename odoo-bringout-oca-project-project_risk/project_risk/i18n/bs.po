@@ -25,7 +25,6 @@ msgstr "Izvršilac radnje"
 
 #. module: project_risk
 #: model:ir.model.fields.selection,name:project_risk.selection__project_risk__state__active
-#: model_terms:ir.ui.view,arch_db:project_risk.project_risk_search_view
 msgid "Active"
 msgstr "Aktivan"
 
@@ -41,50 +40,36 @@ msgstr "Kategorija"
 
 #. module: project_risk
 #: model:ir.model.fields.selection,name:project_risk.selection__project_risk__state__closed
-#: model_terms:ir.ui.view,arch_db:project_risk.project_risk_form_view
 msgid "Closed"
 msgstr "Zatvoreno"
 
 #. module: project_risk
 #: model:ir.model.fields,field_description:project_risk.field_project_risk__create_uid
-#: model:ir.model.fields,field_description:project_risk.field_project_risk_category__create_uid
-#: model:ir.model.fields,field_description:project_risk.field_project_risk_response__create_uid
-#: model:ir.model.fields,field_description:project_risk.field_project_risk_response_category__create_uid
 msgid "Created by"
 msgstr "Kreirao"
 
 #. module: project_risk
 #: model:ir.model.fields,field_description:project_risk.field_project_risk__create_date
-#: model:ir.model.fields,field_description:project_risk.field_project_risk_category__create_date
-#: model:ir.model.fields,field_description:project_risk.field_project_risk_response__create_date
-#: model:ir.model.fields,field_description:project_risk.field_project_risk_response_category__create_date
 msgid "Created on"
 msgstr "Kreirano"
 
 #. module: project_risk
 #: model:ir.model.fields.selection,name:project_risk.selection__project_risk__rating__10
-#: model_terms:ir.ui.view,arch_db:project_risk.project_risk_form_view
 msgid "Critical"
 msgstr "Kritično"
 
 #. module: project_risk
 #: model:ir.model.fields,field_description:project_risk.field_project_risk__description
-#: model:ir.model.fields,field_description:project_risk.field_project_risk_response__description
-#: model_terms:ir.ui.view,arch_db:project_risk.project_risk_form_view
 msgid "Description"
 msgstr "Opis"
 
 #. module: project_risk
 #: model:ir.model.fields,field_description:project_risk.field_project_risk__display_name
-#: model:ir.model.fields,field_description:project_risk.field_project_risk_category__display_name
-#: model:ir.model.fields,field_description:project_risk.field_project_risk_response__display_name
-#: model:ir.model.fields,field_description:project_risk.field_project_risk_response_category__display_name
 msgid "Display Name"
 msgstr "Prikazani naziv"
 
 #. module: project_risk
 #: model:ir.model.fields.selection,name:project_risk.selection__project_risk__state__draft
-#: model_terms:ir.ui.view,arch_db:project_risk.project_risk_form_view
 msgid "Draft"
 msgstr "U pripremi"
 
@@ -115,16 +100,11 @@ msgstr "Ima poruku"
 
 #. module: project_risk
 #: model:ir.model.fields.selection,name:project_risk.selection__project_risk__proximity__4
-#: model:ir.model.fields.selection,name:project_risk.selection__project_risk__rating__8
-#: model_terms:ir.ui.view,arch_db:project_risk.project_risk_form_view
 msgid "High"
 msgstr "Visoki"
 
 #. module: project_risk
 #: model:ir.model.fields,field_description:project_risk.field_project_risk__id
-#: model:ir.model.fields,field_description:project_risk.field_project_risk_category__id
-#: model:ir.model.fields,field_description:project_risk.field_project_risk_response__id
-#: model:ir.model.fields,field_description:project_risk.field_project_risk_response_category__id
 msgid "ID"
 msgstr "ID"
 
@@ -155,25 +135,16 @@ msgstr "Pratilac"
 
 #. module: project_risk
 #: model:ir.model.fields,field_description:project_risk.field_project_risk____last_update
-#: model:ir.model.fields,field_description:project_risk.field_project_risk_category____last_update
-#: model:ir.model.fields,field_description:project_risk.field_project_risk_response____last_update
-#: model:ir.model.fields,field_description:project_risk.field_project_risk_response_category____last_update
 msgid "Last Modified on"
 msgstr "Zadnje mijenjano"
 
 #. module: project_risk
 #: model:ir.model.fields,field_description:project_risk.field_project_risk__write_uid
-#: model:ir.model.fields,field_description:project_risk.field_project_risk_category__write_uid
-#: model:ir.model.fields,field_description:project_risk.field_project_risk_response__write_uid
-#: model:ir.model.fields,field_description:project_risk.field_project_risk_response_category__write_uid
 msgid "Last Updated by"
 msgstr "Zadnji ažurirao"
 
 #. module: project_risk
 #: model:ir.model.fields,field_description:project_risk.field_project_risk__write_date
-#: model:ir.model.fields,field_description:project_risk.field_project_risk_category__write_date
-#: model:ir.model.fields,field_description:project_risk.field_project_risk_response__write_date
-#: model:ir.model.fields,field_description:project_risk.field_project_risk_response_category__write_date
 msgid "Last Updated on"
 msgstr "Zadnje ažurirano"
 
@@ -184,14 +155,11 @@ msgstr "Verojatan"
 
 #. module: project_risk
 #: model:ir.model.fields.selection,name:project_risk.selection__project_risk__proximity__2
-#: model:ir.model.fields.selection,name:project_risk.selection__project_risk__rating__4
-#: model_terms:ir.ui.view,arch_db:project_risk.project_risk_form_view
 msgid "Low"
 msgstr "Nizak"
 
 #. module: project_risk
 #: model:ir.model.fields.selection,name:project_risk.selection__project_risk__rating__5
-#: model_terms:ir.ui.view,arch_db:project_risk.project_risk_form_view
 msgid "Low-Medium"
 msgstr "Nisko-srednji"
 
@@ -202,14 +170,11 @@ msgstr "Glavna zakačka"
 
 #. module: project_risk
 #: model:ir.model.fields.selection,name:project_risk.selection__project_risk__proximity__3
-#: model:ir.model.fields.selection,name:project_risk.selection__project_risk__rating__6
-#: model_terms:ir.ui.view,arch_db:project_risk.project_risk_form_view
 msgid "Medium"
 msgstr "Medijum"
 
 #. module: project_risk
 #: model:ir.model.fields.selection,name:project_risk.selection__project_risk__rating__7
-#: model_terms:ir.ui.view,arch_db:project_risk.project_risk_form_view
 msgid "Medium-High"
 msgstr "Srednji-visok"
 
@@ -236,12 +201,10 @@ msgstr "Umeren"
 #. module: project_risk
 #: model:ir.model.fields.selection,name:project_risk.selection__project_risk__rating__1
 msgid "N/A"
-msgstr ""
+msgstr "N/D"
 
 #. module: project_risk
 #: model:ir.model.fields,field_description:project_risk.field_project_risk__name
-#: model:ir.model.fields,field_description:project_risk.field_project_risk_category__name
-#: model:ir.model.fields,field_description:project_risk.field_project_risk_response_category__name
 msgid "Name"
 msgstr "Naziv:"
 
@@ -282,15 +245,11 @@ msgstr "Vjerovatnoća"
 
 #. module: project_risk
 #: model:ir.model,name:project_risk.model_project_project
-#: model:ir.model.fields,field_description:project_risk.field_project_risk__project_id
-#: model_terms:ir.ui.view,arch_db:project_risk.project_risk_search_view
 msgid "Project"
 msgstr "Projekat"
 
 #. module: project_risk
 #: model:ir.model,name:project_risk.model_project_risk
-#: model:ir.model.fields,field_description:project_risk.field_project_project__project_risk_ids
-#: model:ir.model.fields,field_description:project_risk.field_project_risk_response__project_risk_id
 msgid "Project Risk"
 msgstr "Rizik projekta"
 
@@ -331,7 +290,6 @@ msgstr "Ocijena"
 
 #. module: project_risk
 #: model:ir.model.fields,field_description:project_risk.field_project_risk__project_risk_response_ids
-#: model_terms:ir.ui.view,arch_db:project_risk.project_risk_form_view
 msgid "Response"
 msgstr "Odgovor"
 
@@ -342,21 +300,16 @@ msgstr "Kategorija odgovora"
 
 #. module: project_risk
 #: model:ir.actions.act_window,name:project_risk.project_risk_category_action
-#: model:ir.ui.menu,name:project_risk.project_risk_category_menu
 msgid "Risk Categories"
 msgstr "Kategorije rizika"
 
 #. module: project_risk
 #: model:ir.actions.act_window,name:project_risk.project_risk_response_category_action
-#: model:ir.ui.menu,name:project_risk.project_risk_response_category_menu
 msgid "Risk Response Categories"
 msgstr "Kategorije odgovora na rizik"
 
 #. module: project_risk
 #: model:ir.actions.act_window,name:project_risk.project_risk_action
-#: model:ir.ui.menu,name:project_risk.project_risk_menu
-#: model_terms:ir.ui.view,arch_db:project_risk.edit_project
-#: model_terms:ir.ui.view,arch_db:project_risk.project_completion_kanban
 msgid "Risks"
 msgstr "Rizici"
 
@@ -377,8 +330,6 @@ msgstr "Status"
 
 #. module: project_risk
 #: model:ir.model.fields.selection,name:project_risk.selection__project_risk__impact__1
-#: model:ir.model.fields.selection,name:project_risk.selection__project_risk__rating__2
-#: model_terms:ir.ui.view,arch_db:project_risk.project_risk_form_view
 msgid "Trivial"
 msgstr "Beznačajan"
 
@@ -389,14 +340,11 @@ msgstr "Malo verojatan"
 
 #. module: project_risk
 #: model:ir.model.fields.selection,name:project_risk.selection__project_risk__proximity__5
-#: model:ir.model.fields.selection,name:project_risk.selection__project_risk__rating__9
-#: model_terms:ir.ui.view,arch_db:project_risk.project_risk_form_view
 msgid "Very High"
 msgstr "Veoma visoko"
 
 #. module: project_risk
 #: model:ir.model.fields.selection,name:project_risk.selection__project_risk__rating__3
-#: model_terms:ir.ui.view,arch_db:project_risk.project_risk_form_view
 msgid "Very Low"
 msgstr "Veoma nisko"
 

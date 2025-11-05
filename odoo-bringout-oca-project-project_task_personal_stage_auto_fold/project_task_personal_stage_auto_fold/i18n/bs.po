@@ -13,6 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
+# taken from hr.po
 #. module: project_task_personal_stage_auto_fold
 #: model:ir.model,name:project_task_personal_stage_auto_fold.model_project_task
 msgid "Task"

@@ -15,7 +15,6 @@ msgstr ""
 
 #. module: project_key
 #: model:ir.model.fields,field_description:project_key.field_project_project__key
-#: model:ir.model.fields,field_description:project_key.field_project_task__key
 msgid "Key"
 msgstr "Ključ"
 
@@ -36,7 +35,7 @@ msgstr "Ključ projekta mora biti jedinstven"
 
 #. module: project_key
 #. odoo-python
-#: code:addons/project_key/models/project_project.py:0
+#: code:addons/project_key/models/project_project.py
 #, python-format
 msgid "Project task sequence for project"
 msgstr "Sekvenca zadatka projekta za projekat"

@@ -13,109 +13,107 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
+# taken from hr.po
 #. module: project_task_default_stage
 #: model:project.task.type,name:project_task_default_stage.project_tt_analysis
 msgid "Analysis"
 msgstr "Analiza"
 
+# taken from hr.po
 #. module: project_task_default_stage
 #: model:project.task.type,legend_blocked:project_task_default_stage.project_tt_analysis
-#: model:project.task.type,legend_blocked:project_task_default_stage.project_tt_cancel
-#: model:project.task.type,legend_blocked:project_task_default_stage.project_tt_deployment
-#: model:project.task.type,legend_blocked:project_task_default_stage.project_tt_design
-#: model:project.task.type,legend_blocked:project_task_default_stage.project_tt_development
-#: model:project.task.type,legend_blocked:project_task_default_stage.project_tt_merge
-#: model:project.task.type,legend_blocked:project_task_default_stage.project_tt_specification
-#: model:project.task.type,legend_blocked:project_task_default_stage.project_tt_testing
 msgid "Blocked"
 msgstr "Blokiran"
 
+# taken from hr.po
 #. module: project_task_default_stage
 #: model:project.task.type,name:project_task_default_stage.project_tt_cancel
 msgid "Cancelled"
 msgstr "Otkazano"
 
+# taken from hr.po
 #. module: project_task_default_stage
 #: model:ir.model.fields,field_description:project_task_default_stage.field_project_task_type__case_default
 msgid "Default for New Projects"
 msgstr "Zadano za nove projekte"
 
+# taken from hr.po
 #. module: project_task_default_stage
 #: model:project.task.type,name:project_task_default_stage.project_tt_design
 msgid "Design"
 msgstr "Dizajn"
 
+# taken from hr.po
 #. module: project_task_default_stage
 #: model:project.task.type,name:project_task_default_stage.project_tt_development
 msgid "Development"
 msgstr "Razvoj"
 
+# taken from hr.po
 #. module: project_task_default_stage
 #: model:project.task.type,name:project_task_default_stage.project_tt_deployment
 msgid "Done"
 msgstr "Gotovo"
 
+# taken from hr.po
 #. module: project_task_default_stage
 #: model:ir.model.fields,help:project_task_default_stage.field_project_task_type__case_default
 msgid ""
 "If you check this field, this stage will be proposed by default on each new "
 "project. It will not assign this stage to existing projects."
 msgstr ""
+"Ako označite ovo polje, ova etapa projekta će biti predložena kao zadana na "
+"svakom novom projektu. Neće biti dodijeljena na postojeće projekte."
 
+# taken from hr.po
 #. module: project_task_default_stage
 #: model:project.task.type,legend_normal:project_task_default_stage.project_tt_analysis
-#: model:project.task.type,legend_normal:project_task_default_stage.project_tt_cancel
-#: model:project.task.type,legend_normal:project_task_default_stage.project_tt_deployment
-#: model:project.task.type,legend_normal:project_task_default_stage.project_tt_design
-#: model:project.task.type,legend_normal:project_task_default_stage.project_tt_development
-#: model:project.task.type,legend_normal:project_task_default_stage.project_tt_merge
-#: model:project.task.type,legend_normal:project_task_default_stage.project_tt_specification
-#: model:project.task.type,legend_normal:project_task_default_stage.project_tt_testing
 msgid "In Progress"
 msgstr "U tijeku"
 
+# taken from hr.po
 #. module: project_task_default_stage
 #: model:project.task.type,name:project_task_default_stage.project_tt_merge
 msgid "Merge"
 msgstr "Spoji"
 
+# taken from hr.po
 #. module: project_task_default_stage
 #: model:ir.model,name:project_task_default_stage.model_project_project
 msgid "Project"
 msgstr "Projekt"
 
+# taken from hr.po
 #. module: project_task_default_stage
 #: model_terms:ir.ui.view,arch_db:project_task_default_stage.edit_project
 msgid "Project Stages"
 msgstr "Etape projekta"
 
+# taken from hr.po
 #. module: project_task_default_stage
 #: model:project.task.type,legend_done:project_task_default_stage.project_tt_analysis
-#: model:project.task.type,legend_done:project_task_default_stage.project_tt_cancel
-#: model:project.task.type,legend_done:project_task_default_stage.project_tt_deployment
-#: model:project.task.type,legend_done:project_task_default_stage.project_tt_design
-#: model:project.task.type,legend_done:project_task_default_stage.project_tt_development
-#: model:project.task.type,legend_done:project_task_default_stage.project_tt_merge
-#: model:project.task.type,legend_done:project_task_default_stage.project_tt_specification
-#: model:project.task.type,legend_done:project_task_default_stage.project_tt_testing
 msgid "Ready"
 msgstr "Spremno"
 
+# taken from hr.po
 #. module: project_task_default_stage
 #: model:project.task.type,name:project_task_default_stage.project_tt_specification
 msgid "Specification"
 msgstr "Specifikacija"
 
+# taken from hr.po
 #. module: project_task_default_stage
 #: model:ir.model,name:project_task_default_stage.model_project_task_type
 msgid "Task Stage"
 msgstr "Etapa zadatka"
 
+# taken from hr.po
 #. module: project_task_default_stage
 #: model:ir.model.fields,field_description:project_task_default_stage.field_project_project__type_ids
 msgid "Tasks Stages"
 msgstr "Etapa zadatka"
 
+# taken from hr.po
 #. module: project_task_default_stage
 #: model:project.task.type,name:project_task_default_stage.project_tt_testing
 msgid "Testing"

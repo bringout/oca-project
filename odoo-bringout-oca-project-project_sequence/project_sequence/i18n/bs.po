@@ -29,6 +29,8 @@ msgid ""
 "Name of your project. It can be anything you want e.g. the name of a "
 "customer or a service."
 msgstr ""
+"Naziv vašeg projekta. Može biti bilo što što želite npr. ime korisnika ili "
+"usluga."
 
 #. module: project_sequence
 #: model:ir.model,name:project_sequence.model_project_project
@@ -66,3 +68,5 @@ msgid ""
 "Use %(sequence_code)s and %(name)s to include the sequence code and the name"
 " of the project in the display name."
 msgstr ""
+"Koristite %(sequence_code)s i %(name)s da uključite kod sekvence i ime "
+"projekta u ime prikaza."

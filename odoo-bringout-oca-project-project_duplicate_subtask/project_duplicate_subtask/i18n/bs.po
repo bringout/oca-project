@@ -13,11 +13,13 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
+# taken from hr.po
 #. module: project_duplicate_subtask
 #: model:ir.actions.server,name:project_duplicate_subtask.action_server_duplicate_subtasks
 msgid "Duplicate with subtasks"
 msgstr "Dupliciraj sa podzadacima"
 
+# taken from hr.po
 #. module: project_duplicate_subtask
 #: model:ir.model,name:project_duplicate_subtask.model_project_task
 msgid "Task"

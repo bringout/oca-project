@@ -19,6 +19,8 @@ msgid ""
 "<span class=\"text-muted\">NB: This will archive the selected tasks (Except "
 "the destination task)</span>"
 msgstr ""
+"<span class=\"text-muted\">NB: Ovo će arhivirati odabrane zadatke (Osim "
+"odredišnog zadatka)</span>"
 
 #. module: project_merge
 #: model:ir.model.fields,field_description:project_merge.field_project_task_merge__user_ids

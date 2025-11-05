@@ -15,6 +15,5 @@ msgstr ""
 
 #. module: project_milestone_tree
 #: model:ir.actions.act_window,name:project_milestone_tree.project_milestone_tree_action
-#: model:ir.ui.menu,name:project_milestone_tree.project_menu_config_milestone
 msgid "Milestones"
 msgstr "Prekretnice"

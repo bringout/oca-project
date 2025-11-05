@@ -40,7 +40,6 @@ msgstr "Kreirano"
 
 #. module: project_task_description_template
 #: model:ir.model.fields,field_description:project_task_description_template.field_project_task_description_template__description
-#: model_terms:ir.ui.view,arch_db:project_task_description_template.project_task_description_template_view_form
 msgid "Description"
 msgstr "Opis"
 

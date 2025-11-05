@@ -20,7 +20,6 @@ msgstr "Dodaj a set in a project task"
 
 #. module: project_stock_product_set
 #: model_terms:ir.ui.view,arch_db:project_stock_product_set.product_set_add_from_task_form_view
-#: model_terms:ir.ui.view,arch_db:project_stock_product_set.view_task_form2
 msgid "Add set"
 msgstr "Dodaj set"
 

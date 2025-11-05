@@ -13,27 +13,31 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
+# taken from hr.po
 #. module: project_hr
 #: model:ir.model.fields,field_description:project_hr.field_project_task__allowed_hr_category_ids
 msgid "Allowed HR categories"
 msgstr "Dozvoljene kategorije HR"
 
+# taken from hr.po
 #. module: project_hr
 #: model:ir.model.fields,field_description:project_hr.field_project_task__allowed_assigned_user_ids
 msgid "Allowed users"
 msgstr "Dozvoljeno korisnicima"
 
+# taken from hr.po
 #. module: project_hr
 #: model:ir.model,name:project_hr.model_hr_employee
 msgid "Employee"
 msgstr "Djelatnik"
 
+# taken from hr.po
 #. module: project_hr
 #: model:ir.model.fields,field_description:project_hr.field_project_project__hr_category_ids
-#: model:ir.model.fields,field_description:project_hr.field_project_task__hr_category_ids
 msgid "Employee Categories"
 msgstr "Kategorije djelatnika"
 
+# taken from hr.po
 #. module: project_hr
 #: model:ir.model.fields,field_description:project_hr.field_res_users__hr_category_ids
 msgid "HR categories"
@@ -45,6 +49,8 @@ msgid ""
 "Here you can link the project to several employee categories, that will be "
 "the allowed in tasks."
 msgstr ""
+"Ovde možete povezati projekat sa nekoliko kategorija zaposlenih, koje će "
+"biti dozvoljene u zadacima."
 
 #. module: project_hr
 #: model:ir.model.fields,help:project_hr.field_project_task__hr_category_ids
@@ -53,6 +59,9 @@ msgid ""
 "limiting the selectable users to be assigned to those that belongs to that "
 "category."
 msgstr ""
+"Ovde možete odabrati kategoriju zaposlenih pogodnu za izvršavanje ovog "
+"zadatka, ograničavajući odabir korisnika za dodeljivanje na one koji "
+"pripadaju toj kategoriji."
 
 #. module: project_hr
 #: model:ir.model.fields,field_description:project_hr.field_project_task__employee_ids
@@ -75,12 +84,16 @@ msgid ""
 "Technical field for computing allowed employee categories according "
 "categories at project level."
 msgstr ""
+"Tehničko polje za računanje dozvoljenih kategorija zaposlenih prema "
+"kategorijama na nivou projekta."
 
 #. module: project_hr
 #: model:ir.model.fields,help:project_hr.field_project_task__allowed_assigned_user_ids
 msgid ""
 "Technical field for computing allowed users according employee category."
 msgstr ""
+"Tehničko polje za računanje dozvoljenih korisnika prema kategoriji "
+"zaposlenih."
 
 #. module: project_hr
 #: model:ir.model.fields,help:project_hr.field_res_users__hr_category_ids
@@ -88,6 +101,8 @@ msgid ""
 "Technical field for computing dynamically employee categories linked to the "
 "user in the current company."
 msgstr ""
+"Tehničko polje za dinamičko računanje kategorija zaposlenih povezanih sa "
+"korisnikom u trenutnoj kompaniji."
 
 #. module: project_hr
 #: model:ir.model,name:project_hr.model_res_users
@@ -96,15 +111,17 @@ msgstr "Korisnik"
 
 #. module: project_hr
 #. odoo-python
-#: code:addons/project_hr/models/project_task.py:0
+#: code:addons/project_hr/models/project_task.py
 #, python-format
 msgid "You can't assign a category that is not allowed at project level."
 msgstr "Ne možete dodeliti kategoriju koja nije dozvoljena na nivou projekta."
 
 #. module: project_hr
 #. odoo-python
-#: code:addons/project_hr/models/project_task.py:0
+#: code:addons/project_hr/models/project_task.py
 #, python-format
 msgid ""
 "You can't assign a user not belonging to the selected employee category."
 msgstr ""
+"Ne možete dodeliti korisnika koji ne pripada odabranoj kategoriji "
+"zaposlenih."

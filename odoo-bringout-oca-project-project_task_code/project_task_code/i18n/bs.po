@@ -18,20 +18,22 @@ msgstr ""
 msgid "<span class=\"oe_inline\"> - </span>"
 msgstr "<span class=\"oe_inline\"> - </span>"
 
+# taken from hr.po
 #. module: project_task_code
 #: model:ir.model,name:project_task_code.model_project_task
 msgid "Task"
 msgstr "Zadatak"
 
+# taken from hr.po
 #. module: project_task_code
 #: model:ir.model.fields,field_description:project_task_code.field_project_task__code
 msgid "Task Number"
 msgstr "Broj zadatka"
 
+# taken from hr.po
 #. module: project_task_code
 #. odoo-python
-#: code:addons/project_task_code/models/project_task.py:0
-#: model:ir.model.constraint,message:project_task_code.constraint_project_task_project_task_unique_code
+#: code:addons/project_task_code/models/project_task.py
 #, python-format
 msgid "The code must be unique!"
 msgstr "Šifra mora biti jedinstvena!"

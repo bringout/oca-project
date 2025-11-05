@@ -95,7 +95,6 @@ msgstr "Projektni zadatak"
 
 #. module: project_task_recurring_activity
 #: model:ir.actions.server,name:project_task_recurring_activity.ir_cron_recurring_activities_ir_actions_server
-#: model:ir.cron,cron_name:project_task_recurring_activity.ir_cron_recurring_activities
 msgid "Project: Create Recurring Activities"
 msgstr "Projekat: Kreiraj Recurring Activities"
 

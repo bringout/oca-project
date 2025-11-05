@@ -13,16 +13,19 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
+# taken from hr.po
 #. module: project_task_material
 #: model:ir.model.fields,field_description:project_task_material.field_project_task_material__create_uid
 msgid "Created by"
 msgstr "Kreirao"
 
+# taken from hr.po
 #. module: project_task_material
 #: model:ir.model.fields,field_description:project_task_material.field_project_task_material__create_date
 msgid "Created on"
 msgstr "Kreirano"
 
+# taken from hr.po
 #. module: project_task_material
 #: model:ir.model.fields,field_description:project_task_material.field_project_task_material__display_name
 msgid "Display Name"
@@ -33,54 +36,63 @@ msgstr "Prikaži naziv"
 msgid "ID"
 msgstr "ID"
 
+# taken from hr.po
 #. module: project_task_material
 #: model:ir.model.fields,field_description:project_task_material.field_project_task_material____last_update
 msgid "Last Modified on"
 msgstr "Zadnje mijenjano"
 
+# taken from hr.po
 #. module: project_task_material
 #: model:ir.model.fields,field_description:project_task_material.field_project_task_material__write_uid
 msgid "Last Updated by"
 msgstr "Zadnji ažurirao"
 
+# taken from hr.po
 #. module: project_task_material
 #: model:ir.model.fields,field_description:project_task_material.field_project_task_material__write_date
 msgid "Last Updated on"
 msgstr "Zadnje ažurirano"
 
+# taken from hr.po
 #. module: project_task_material
 #: model_terms:ir.ui.view,arch_db:project_task_material.view_project_task_form_material
 msgid "Material"
 msgstr "Materijal"
 
+# taken from hr.po
 #. module: project_task_material
 #: model:ir.model.fields,field_description:project_task_material.field_project_task__material_ids
 msgid "Material Used"
 msgstr "Utrošeni materijal"
 
+# taken from hr.po
 #. module: project_task_material
 #: model:ir.model.fields,field_description:project_task_material.field_project_task_material__product_id
 msgid "Product"
 msgstr "Proizvod"
 
+# taken from hr.po
 #. module: project_task_material
 #: model:ir.model.fields,field_description:project_task_material.field_project_task_material__quantity
 msgid "Quantity"
 msgstr "Količina"
 
+# taken from hr.po
 #. module: project_task_material
 #. odoo-python
-#: code:addons/project_task_material/models/project.py:0
+#: code:addons/project_task_material/models/project.py
 #, python-format
 msgid "Quantity of material consumed must be greater than 0."
 msgstr "Količina iskorištenog materijala mora biti veća od 0."
 
+# taken from hr.po
 #. module: project_task_material
 #: model:ir.model,name:project_task_material.model_project_task
-#: model:ir.model.fields,field_description:project_task_material.field_project_task_material__task_id
 msgid "Task"
 msgstr "Zadatak"
 
+# taken from hr.po
 #. module: project_task_material
 #: model:ir.model,name:project_task_material.model_project_task_material
 msgid "Task Material Used"

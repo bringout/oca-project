@@ -13,31 +13,37 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
+# taken from hr.po
 #. module: project_parent
 #: model:ir.model.fields,field_description:project_parent.field_project_project__child_ids_count
 msgid "Child Ids Count"
 msgstr "Broj podređenih projekata"
 
+# taken from hr.po
 #. module: project_parent
 #: model_terms:ir.ui.view,arch_db:project_parent.edit_project
 msgid "Child Projects"
 msgstr "Podređeni projekti"
 
+# taken from hr.po
 #. module: project_parent
 #: model:ir.model.fields,field_description:project_parent.field_project_project__parent_path
 msgid "Parent Path"
 msgstr "Putanja nadređenih"
 
+# taken from hr.po
 #. module: project_parent
 #: model:ir.model.fields,field_description:project_parent.field_project_project__parent_id
 msgid "Parent Project"
 msgstr "Nadređeni projekt"
 
+# taken from hr.po
 #. module: project_parent
 #: model:ir.model,name:project_parent.model_project_project
 msgid "Project"
 msgstr "Projekt"
 
+# taken from hr.po
 #. module: project_parent
 #: model:ir.model.fields,field_description:project_parent.field_project_project__child_ids
 msgid "Sub-projects"

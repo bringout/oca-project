@@ -13,16 +13,19 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
+# taken from hr.po
 #. module: project_stock
 #: model:ir.model.fields,field_description:project_stock.field_project_task__allow_moves_action_assign
 msgid "Allow Moves Action Assign"
 msgstr "Dozvoli dodjeljivanje skladišnih prenosa"
 
+# taken from hr.po
 #. module: project_stock
 #: model:ir.model.fields,field_description:project_stock.field_project_task__allow_moves_action_confirm
 msgid "Allow Moves Action Confirm"
 msgstr "Dozvoli potvrđivanje skladišnih prenosa"
 
+# taken from hr.po
 #. module: project_stock
 #: model:ir.model.fields,field_description:project_stock.field_project_task__unreserve_visible
 msgid "Allowed to Unreserve Inventory"
@@ -43,11 +46,13 @@ msgstr "Analitička distribucija"
 msgid "Analytic Distribution Search"
 msgstr "Pretraga analitičkih distribucija"
 
+# taken from hr.po
 #. module: project_stock
 #: model:ir.model,name:project_stock.model_account_analytic_line
 msgid "Analytic Line"
 msgstr "Analitička stavka"
 
+# taken from hr.po
 #. module: project_stock
 #: model:ir.model.fields,field_description:project_stock.field_project_task__stock_analytic_line_ids
 msgid "Analytic Lines"
@@ -58,71 +63,81 @@ msgstr "Analitičke stavke"
 msgid "Analytic Precision"
 msgstr "Preciznost analitike"
 
+# taken from hr.po
 #. module: project_stock
 #: model:ir.model.fields,field_description:project_stock.field_project_project__stock_analytic_date
-#: model:ir.model.fields,field_description:project_stock.field_project_task__stock_analytic_date
 msgid "Analytic date"
 msgstr "Datum analitike"
 
+# taken from hr.po
 #. module: project_stock
 #: model:ir.model.fields.selection,name:project_stock.selection__project_task__stock_state__assigned
 msgid "Assigned"
 msgstr "Dodijeljeno"
 
+# taken from hr.po
 #. module: project_stock
 #: model:ir.model.fields.selection,name:project_stock.selection__project_task__stock_state__cancel
 msgid "Cancel"
 msgstr "Otkaži"
 
+# taken from hr.po
 #. module: project_stock
 #: model_terms:ir.ui.view,arch_db:project_stock.view_task_form2
 msgid "Cancel Materials"
 msgstr "Otkaži materijale"
 
+# taken from hr.po
 #. module: project_stock
 #: model_terms:ir.ui.view,arch_db:project_stock.view_task_form2
 msgid "Check availability materials"
 msgstr "Provjeri dostupnost matrijala"
 
+# taken from hr.po
 #. module: project_stock
 #: model_terms:ir.ui.view,arch_db:project_stock.view_task_form2
 msgid "Confirm materials"
 msgstr "Potvrdi materijale"
 
+# taken from hr.po
 #. module: project_stock
 #: model:ir.model.fields.selection,name:project_stock.selection__project_task__stock_state__confirmed
 msgid "Confirmed"
 msgstr "Potvrđeno"
 
+# taken from hr.po
 #. module: project_stock
 #: model_terms:ir.ui.view,arch_db:project_stock.view_stock_move_raw_tree
 msgid "Consumed"
 msgstr "Utrošeno"
 
+# taken from hr.po
 #. module: project_stock
 #: model:ir.model.fields,help:project_stock.field_project_project__location_id
 msgid "Default location from which materials are consumed."
 msgstr "Zadana lokacija sa koje se troše materijali."
 
+# taken from hr.po
 #. module: project_stock
 #: model:ir.model.fields,help:project_stock.field_project_project__location_dest_id
 msgid "Default location to which materials are consumed."
 msgstr "Zadana lokacija na kojoj završavaju utrošeni materijali."
 
+# taken from hr.po
 #. module: project_stock
 #: model:ir.model.fields,field_description:project_stock.field_project_project__location_dest_id
-#: model:ir.model.fields,field_description:project_stock.field_project_task__location_dest_id
 msgid "Destination Location"
 msgstr "Odredišna lokacija"
 
+# taken from hr.po
 #. module: project_stock
 #: model:ir.model.fields.selection,name:project_stock.selection__project_task__stock_state__done
 msgid "Done"
 msgstr "Završeno"
 
+# taken from hr.po
 #. module: project_stock
 #: model:ir.model.fields,field_description:project_stock.field_project_task__done_stock_moves
-#: model:ir.model.fields,field_description:project_stock.field_project_task_type__done_stock_moves
 msgid "Done Stock Moves"
 msgstr "Završena skladišna kretanja"
 
@@ -131,163 +146,188 @@ msgstr "Završena skladišna kretanja"
 msgid "Forecasted Report"
 msgstr "Projekcija zaliha"
 
+# taken from hr.po
 #. module: project_stock
 #: model:ir.model.fields,field_description:project_stock.field_project_task__group_id
 msgid "Group"
 msgstr "Grupa"
 
+# taken from hr.po
 #. module: project_stock
 #: model:ir.model.fields,help:project_stock.field_project_task__done_stock_moves
-#: model:ir.model.fields,help:project_stock.field_project_task_type__done_stock_moves
 msgid ""
 "If you check this box, when a task is in this state, you will not be able to"
 " add more stock moves but they can be viewed."
 msgstr ""
+"Ako označite ovo, kad zadatak dođe u ovo stanje, nećete više moći dodati "
+"skladišna kretanja, ali ona ostaju vidljiva."
 
+# taken from hr.po
 #. module: project_stock
 #: model:ir.model.fields,help:project_stock.field_project_task__use_stock_moves
-#: model:ir.model.fields,help:project_stock.field_project_task_type__use_stock_moves
 msgid ""
 "If you mark this check, when a task goes to this state, it will use stock "
 "moves"
 msgstr ""
+"Ako je ovo označeno, kad zadatak dođe u ovo stanje, koriste se skladišna "
+"kretanja"
 
+# taken from hr.po
 #. module: project_stock
 #: model:ir.actions.act_window,name:project_stock.action_project_task_moves
 msgid "Inventory Moves"
 msgstr "Kretanja inventure"
 
+# taken from hr.po
 #. module: project_stock
 #. odoo-python
-#: code:addons/project_stock/models/project_task.py:0
+#: code:addons/project_stock/models/project_task.py
 #, python-format
 msgid "It is not possible to change this with reserved movements in tasks."
-msgstr "Ovo nije moguće mijenjati na rezerviranim skladišnim kretanjima u zadacima."
+msgstr ""
+"Ovo nije moguće mijenjati na rezerviranim skladišnim kretanjima u zadacima."
 
+# taken from hr.po
 #. module: project_stock
 #: model_terms:ir.ui.view,arch_db:project_stock.view_task_form2
 msgid "Lock"
 msgstr "Zaključaj"
 
+# taken from hr.po
 #. module: project_stock
 #: model:ir.model.fields,field_description:project_stock.field_project_task__stock_analytic_account_id
 msgid "Move Analytic Account"
 msgstr "Analitički konto kretanja"
 
+# taken from hr.po
 #. module: project_stock
 #: model:ir.model.fields,help:project_stock.field_project_task__stock_analytic_account_id
 msgid "Move created will be assigned to this analytic account"
 msgstr "Kreirano kretanje će biti dodijeljeno ovom analitičkom kontu"
 
+# taken from hr.po
 #. module: project_stock
 #: model:ir.model.fields,field_description:project_stock.field_project_project__picking_type_id
-#: model:ir.model.fields,field_description:project_stock.field_project_task__picking_type_id
 msgid "Operation Type"
 msgstr "Tip operacije"
 
+# taken from hr.po
 #. module: project_stock
 #: model:ir.model.fields.selection,name:project_stock.selection__project_task__stock_state__pending
 msgid "Pending"
 msgstr "Na čekanju"
 
+# taken from hr.po
 #. module: project_stock
 #: model_terms:ir.ui.view,arch_db:project_stock.view_task_form2
 msgid "Product Moves"
 msgstr "Kretanja proizvoda"
 
+# taken from hr.po
 #. module: project_stock
 #: model:ir.model,name:project_stock.model_stock_move_line
 msgid "Product Moves (Stock Move Line)"
 msgstr "Kretanja proizvoda (stavke skladišnog kretanja)"
 
+# taken from hr.po
 #. module: project_stock
 #: model:ir.model,name:project_stock.model_project_project
 msgid "Project"
 msgstr "Projekt"
 
+# taken from hr.po
 #. module: project_stock
 #: model:ir.model.fields,field_description:project_stock.field_account_analytic_line__stock_task_id
 msgid "Project Task"
 msgstr "Projektni zadatak"
 
+# taken from hr.po
 #. module: project_stock
 #: model:ir.model.fields,field_description:project_stock.field_stock_move__task_id
 msgid "Related Task"
 msgstr "Povezani zadatak"
 
+# taken from hr.po
 #. module: project_stock
 #: model_terms:ir.ui.view,arch_db:project_stock.view_stock_move_raw_tree
 msgid "Reserved"
 msgstr "Rezervirano"
 
+# taken from hr.po
 #. module: project_stock
 #. odoo-python
-#: code:addons/project_stock/models/project_task.py:0
-#: model:ir.model,name:project_stock.model_stock_scrap
-#: model_terms:ir.ui.view,arch_db:project_stock.view_task_form2
+#: code:addons/project_stock/models/project_task.py
 #, python-format
 msgid "Scrap"
 msgstr "Otpis"
 
+# taken from hr.po
 #. module: project_stock
 #: model:ir.model.fields,field_description:project_stock.field_project_task__scrap_count
 msgid "Scrap Move"
 msgstr "Kretanje otpisa"
 
+# taken from hr.po
 #. module: project_stock
 #: model:ir.model.fields,field_description:project_stock.field_project_task__scrap_ids
-#: model_terms:ir.ui.view,arch_db:project_stock.view_task_form2
 msgid "Scraps"
 msgstr "Otpisi"
 
+# taken from hr.po
 #. module: project_stock
 #: model:ir.model.fields,field_description:project_stock.field_project_project__location_id
-#: model:ir.model.fields,field_description:project_stock.field_project_task__location_id
 msgid "Source Location"
 msgstr "Ishodišna lokacija"
 
+# taken from hr.po
 #. module: project_stock
 #: model_terms:ir.ui.view,arch_db:project_stock.edit_project
 msgid "Stock"
 msgstr "Skladište"
 
+# taken from hr.po
 #. module: project_stock
 #: model_terms:ir.ui.view,arch_db:project_stock.view_task_form2
 msgid "Stock Info"
 msgstr "Informacije o skladištu"
 
+# taken from hr.po
 #. module: project_stock
 #: model:ir.model,name:project_stock.model_stock_move
 msgid "Stock Move"
 msgstr "Skladišno kretanje"
 
+# taken from hr.po
 #. module: project_stock
 #: model:ir.model.fields,field_description:project_stock.field_project_task__move_ids
 msgid "Stock Moves"
 msgstr "Skladišna kretanja"
 
+# taken from hr.po
 #. module: project_stock
 #: model:ir.model.fields,field_description:project_stock.field_project_task__stock_moves_is_locked
 msgid "Stock Moves Is Locked"
 msgstr "Skladišna kretanja su zaključana"
 
+# taken from hr.po
 #. module: project_stock
 #: model:ir.model.fields,field_description:project_stock.field_project_task__stock_state
 msgid "Stock State"
 msgstr "Stanje skladišta"
 
+# taken from hr.po
 #. module: project_stock
 #: model:ir.model,name:project_stock.model_project_task
-#: model:ir.model.fields,field_description:project_stock.field_stock_move_line__task_id
-#: model:ir.model.fields,field_description:project_stock.field_stock_scrap__task_id
 msgid "Task"
 msgstr "Zadatak"
 
+# taken from hr.po
 #. module: project_stock
 #: model:ir.model,name:project_stock.model_project_task_type
 msgid "Task Stage"
 msgstr "Status zadatka"
 
+# taken from hr.po
 #. module: project_stock
 #: model:ir.model.fields,field_description:project_stock.field_stock_move__raw_material_task_id
 msgid "Task for material"
@@ -295,7 +335,6 @@ msgstr "Zadatak za materijal"
 
 #. module: project_stock
 #: model:project.project,name:project_stock.project_project_tm_test
-#: model:stock.picking.type,name:project_stock.stock_picking_type_tm_test
 msgid "Task material"
 msgstr "Zadatak material"
 
@@ -304,33 +343,38 @@ msgstr "Zadatak material"
 msgid "Tasks"
 msgstr "Zadaci"
 
+# taken from hr.po
 #. module: project_stock
 #: model:ir.model.fields,help:project_stock.field_project_task__unreserve_visible
 msgid "Technical field to check when we can unreserve"
 msgstr "Tehničko polje za provjeru kada možemo odrezervirati"
 
+# taken from hr.po
 #. module: project_stock
 #: model_terms:ir.ui.view,arch_db:project_stock.view_stock_move_raw_tree
 msgid "To Consume"
 msgstr "Za utrošiti"
 
+# taken from hr.po
 #. module: project_stock
 #: model_terms:ir.ui.view,arch_db:project_stock.view_task_form2
 msgid "Transfer Materials"
 msgstr "Prebaci materijale"
 
+# taken from hr.po
 #. module: project_stock
 #: model_terms:ir.ui.view,arch_db:project_stock.view_task_form2
 msgid "Unlock"
 msgstr "Otključaj"
 
+# taken from hr.po
 #. module: project_stock
 #: model_terms:ir.ui.view,arch_db:project_stock.view_task_form2
 msgid "Unreserve"
 msgstr "Odrezerviraj"
 
+# taken from hr.po
 #. module: project_stock
 #: model:ir.model.fields,field_description:project_stock.field_project_task__use_stock_moves
-#: model:ir.model.fields,field_description:project_stock.field_project_task_type__use_stock_moves
 msgid "Use Stock Moves"
 msgstr "Koristi skladišna kretanja"

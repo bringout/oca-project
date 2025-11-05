@@ -15,15 +15,11 @@ msgstr ""
 
 #. module: project_task_stage_change_restriction
 #: model:ir.model.fields,field_description:project_task_stage_change_restriction.field_project_task_type__allow_assigned_only
-#: model:project.task.type,name:project_task_stage_change_restriction.demo_stage_assigned_only
 msgid "Assigned Only"
 msgstr "Assigned Only"
 
 #. module: project_task_stage_change_restriction
 #: model:project.task.type,legend_blocked:project_task_stage_change_restriction.demo_stage_assigned_only
-#: model:project.task.type,legend_blocked:project_task_stage_change_restriction.demo_stage_free
-#: model:project.task.type,legend_blocked:project_task_stage_change_restriction.demo_stage_group_only
-#: model:project.task.type,legend_blocked:project_task_stage_change_restriction.demo_stage_pm_only
 msgid "Blocked"
 msgstr "Blokirano"
 
@@ -47,12 +43,10 @@ msgstr "If enabled, only the project manager can move tasks into this stage."
 msgid ""
 "If enabled, only users assigned to the task can move it into this stage."
 msgstr ""
+"If enabled, only users assigned to the task can move it into this stage."
 
 #. module: project_task_stage_change_restriction
 #: model:project.task.type,legend_normal:project_task_stage_change_restriction.demo_stage_assigned_only
-#: model:project.task.type,legend_normal:project_task_stage_change_restriction.demo_stage_free
-#: model:project.task.type,legend_normal:project_task_stage_change_restriction.demo_stage_group_only
-#: model:project.task.type,legend_normal:project_task_stage_change_restriction.demo_stage_pm_only
 msgid "In Progress"
 msgstr "U Toku"
 
@@ -78,9 +72,6 @@ msgstr "Brza navigacija"
 
 #. module: project_task_stage_change_restriction
 #: model:project.task.type,legend_done:project_task_stage_change_restriction.demo_stage_assigned_only
-#: model:project.task.type,legend_done:project_task_stage_change_restriction.demo_stage_free
-#: model:project.task.type,legend_done:project_task_stage_change_restriction.demo_stage_group_only
-#: model:project.task.type,legend_done:project_task_stage_change_restriction.demo_stage_pm_only
 msgid "Ready"
 msgstr "Spremno"
 
@@ -91,12 +82,14 @@ msgstr "Greška s klikom na dugme"
 
 #. module: project_task_stage_change_restriction
 #. odoo-python
-#: code:addons/project_task_stage_change_restriction/models/project_task.py:0
+#: code:addons/project_task_stage_change_restriction/models/project_task.py
 #, python-format
 msgid ""
 "Sorry, you are not allowed to move the task '%(task)s' into the stage "
 "'%(stage)s'."
 msgstr ""
+"Sorry, you are not allowed to move the task '%(task)s' into the stage "
+"'%(stage)s'."
 
 #. module: project_task_stage_change_restriction
 #: model_terms:ir.ui.view,arch_db:project_task_stage_change_restriction.view_project_task_type_form_restriction

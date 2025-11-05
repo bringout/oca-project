@@ -20,23 +20,23 @@ msgstr "Postavke"
 
 #. module: project_task_pull_request_state
 #: model:ir.model.fields,field_description:project_task_pull_request_state.field_project_project__pr_state_default
-#: model:ir.model.fields,field_description:project_task_pull_request_state.field_res_config_settings__pr_state_default
 msgid "Default PR State"
 msgstr "Default PR State"
 
 #. module: project_task_pull_request_state
 #: model:ir.model.fields,help:project_task_pull_request_state.field_project_project__pr_state_default
-#: model:ir.model.fields,help:project_task_pull_request_state.field_res_config_settings__pr_state_default
 msgid ""
 "Default PR state that will be set when PR URI is added to a task in this "
 "project"
 msgstr ""
+"Default PR state that will be set when PR URI is added to a task in this "
+"project"
 
 #. module: project_task_pull_request_state
 #: model_terms:ir.ui.view,arch_db:project_task_pull_request_state.res_config_settings_view_form
 msgid ""
 "Default PR state. Used in case default PR state is not defined in project"
-msgstr ""
+msgstr "Sve faze"
 
 #. module: project_task_pull_request_state
 #: model_terms:ir.ui.view,arch_db:project_task_pull_request_state.view_task_search_form
@@ -45,7 +45,6 @@ msgstr "Analiziraj"
 
 #. module: project_task_pull_request_state
 #: model:ir.model.fields,field_description:project_task_pull_request_state.field_project_task__pr_state
-#: model_terms:ir.ui.view,arch_db:project_task_pull_request_state.view_task_search_form
 msgid "PR State"
 msgstr "PR State"
 

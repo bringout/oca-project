@@ -30,14 +30,13 @@ msgstr "Projekat"
 
 #. module: project_purchase_link
 #. odoo-python
-#: code:addons/project_purchase_link/models/project_project.py:0
+#: code:addons/project_purchase_link/models/project_project.py
 #, python-format
 msgid "Purchase Invoice Lines"
 msgstr "Linije nabavne fakture"
 
 #. module: project_purchase_link
 #: model:ir.model.fields,field_description:project_purchase_link.field_project_project__purchase_invoice_line_total
-#: model_terms:ir.ui.view,arch_db:project_purchase_link.project_project_view_form
 msgid "Purchase Invoice Total"
 msgstr "Ukupno nabavne fakture"
 
@@ -48,21 +47,20 @@ msgstr "Nabavne fakture"
 
 #. module: project_purchase_link
 #. odoo-python
-#: code:addons/project_purchase_link/models/project_project.py:0
+#: code:addons/project_purchase_link/models/project_project.py
 #, python-format
 msgid "Purchase Order"
 msgstr "Nalog za nabavu"
 
 #. module: project_purchase_link
 #. odoo-python
-#: code:addons/project_purchase_link/models/project_project.py:0
+#: code:addons/project_purchase_link/models/project_project.py
 #, python-format
 msgid "Purchase Order Lines"
 msgstr "Stavke narudžbenice"
 
 #. module: project_purchase_link
 #: model:ir.model.fields,field_description:project_purchase_link.field_project_project__purchase_line_total
-#: model_terms:ir.ui.view,arch_db:project_purchase_link.project_project_view_form
 msgid "Purchase Total"
 msgstr "Ukupno nabavke"
 

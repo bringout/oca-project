@@ -15,23 +15,21 @@ msgstr ""
 
 #. module: project_milestone_status
 #. odoo-python
-#: code:addons/project_milestone_status/models/project.py:0
+#: code:addons/project_milestone_status/models/project.py
 #, python-format
 msgid "%(name)s"
 msgstr "%(name)s"
 
 #. module: project_milestone_status
 #. odoo-python
-#: code:addons/project_milestone_status/models/project.py:0
-#: model:ir.model.fields,field_description:project_milestone_status.field_project_milestone__dedication
+#: code:addons/project_milestone_status/models/project.py
 #, python-format
 msgid "Dedication"
 msgstr "Posvećenost"
 
 #. module: project_milestone_status
 #. odoo-python
-#: code:addons/project_milestone_status/models/project.py:0
-#: model:ir.model.fields,field_description:project_milestone_status.field_project_milestone__execution
+#: code:addons/project_milestone_status/models/project.py
 #, python-format
 msgid "Execution"
 msgstr "Izvršavanje"
@@ -42,6 +40,8 @@ msgid ""
 "Keep track of the progress of your tasks from creation to completion.<br>\n"
 "                Collaborate efficiently by chatting in real-time or via email."
 msgstr ""
+"Pratite napredak vaših zadataka od kreiranja do završetka.<br>\n"
+"                Efikasno sarađujte ćaskanjem u realnom vremenu ili putem emaila."
 
 #. module: project_milestone_status
 #: model_terms:ir.actions.act_window,help:project_milestone_status.act_excuted_project_task

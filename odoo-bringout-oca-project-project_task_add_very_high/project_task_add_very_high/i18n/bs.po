@@ -13,11 +13,13 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
+# taken from hr.po
 #. module: project_task_add_very_high
 #: model:ir.model.fields.selection,name:project_task_add_very_high.selection__project_task__priority__3
 msgid "Most Important"
 msgstr "Najvažnije"
 
+# taken from hr.po
 #. module: project_task_add_very_high
 #: model:ir.model.fields,field_description:project_task_add_very_high.field_project_task__priority
 msgid "Priority"
@@ -28,11 +30,13 @@ msgstr "Prioritet"
 msgid "Priority: {{priority_selection[task.priority or '0']}}"
 msgstr "Priority: {{priority_selection[task.priority or '0']}}"
 
+# taken from hr.po
 #. module: project_task_add_very_high
 #: model:ir.model,name:project_task_add_very_high.model_project_task
 msgid "Task"
 msgstr "Zadatak"
 
+# taken from hr.po
 #. module: project_task_add_very_high
 #: model:ir.model.fields.selection,name:project_task_add_very_high.selection__project_task__priority__2
 msgid "Very High"

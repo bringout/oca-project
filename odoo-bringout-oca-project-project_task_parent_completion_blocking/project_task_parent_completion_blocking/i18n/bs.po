@@ -20,7 +20,7 @@ msgstr "Zadatak"
 
 #. module: project_task_parent_completion_blocking
 #. odoo-python
-#: code:addons/project_task_parent_completion_blocking/models/project_task.py:0
+#: code:addons/project_task_parent_completion_blocking/models/project_task.py
 #, python-format
 msgid "You can't close this task because it has open subtasks."
 msgstr "Vreme & materijali"
