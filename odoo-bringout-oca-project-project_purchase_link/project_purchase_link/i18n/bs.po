@@ -50,14 +50,14 @@ msgstr "Nabavne fakture"
 #: code:addons/project_purchase_link/models/project_project.py
 #, python-format
 msgid "Purchase Order"
-msgstr "Zahtjevi za nabavom"
+msgstr "Nalog za nabavu"
 
 #. module: project_purchase_link
 #. odoo-python
 #: code:addons/project_purchase_link/models/project_project.py
 #, python-format
 msgid "Purchase Order Lines"
-msgstr "Stavke zahtjeva za nabavu"
+msgstr "Stavke narudžbenice"
 
 #. module: project_purchase_link
 #: model:ir.model.fields,field_description:project_purchase_link.field_project_project__purchase_line_total

@@ -16,7 +16,7 @@ msgstr ""
 #. module: project_task_pull_request_state
 #: model:ir.model,name:project_task_pull_request_state.model_res_config_settings
 msgid "Config Settings"
-msgstr "Postavke konfiguracije"
+msgstr "Postavke"
 
 #. module: project_task_pull_request_state
 #: model:ir.model.fields,field_description:project_task_pull_request_state.field_project_project__pr_state_default

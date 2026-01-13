@@ -53,7 +53,7 @@ msgstr "Razvoj"
 #. module: project_task_default_stage
 #: model:project.task.type,name:project_task_default_stage.project_tt_deployment
 msgid "Done"
-msgstr "Dovršeno"
+msgstr "Gotovo"
 
 # taken from hr.po
 #. module: project_task_default_stage
@@ -69,7 +69,7 @@ msgstr ""
 #. module: project_task_default_stage
 #: model:project.task.type,legend_normal:project_task_default_stage.project_tt_analysis
 msgid "In Progress"
-msgstr "U Toku"
+msgstr "U tijeku"
 
 # taken from hr.po
 #. module: project_task_default_stage

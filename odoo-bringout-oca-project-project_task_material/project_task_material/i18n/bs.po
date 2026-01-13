@@ -29,7 +29,7 @@ msgstr "Kreirano"
 #. module: project_task_material
 #: model:ir.model.fields,field_description:project_task_material.field_project_task_material__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Prikaži naziv"
 
 #. module: project_task_material
 #: model:ir.model.fields,field_description:project_task_material.field_project_task_material__id
@@ -40,19 +40,19 @@ msgstr "ID"
 #. module: project_task_material
 #: model:ir.model.fields,field_description:project_task_material.field_project_task_material____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena na"
+msgstr "Zadnje mijenjano"
 
 # taken from hr.po
 #. module: project_task_material
 #: model:ir.model.fields,field_description:project_task_material.field_project_task_material__write_uid
 msgid "Last Updated by"
-msgstr "Zadnje ažuriranje izvršio"
+msgstr "Zadnji ažurirao"
 
 # taken from hr.po
 #. module: project_task_material
 #: model:ir.model.fields,field_description:project_task_material.field_project_task_material__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažuriranje na"
+msgstr "Zadnje ažurirano"
 
 # taken from hr.po
 #. module: project_task_material

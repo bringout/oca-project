@@ -26,7 +26,7 @@ msgstr "Tip aktivnosti"
 #. module: project_task_recurring_activity
 #: model:ir.model.fields,field_description:project_task_recurring_activity.field_recurring_activity__user_id
 msgid "Assigned to"
-msgstr "Dodijeljeno"
+msgstr "Dodjeljeno"
 
 #. module: project_task_recurring_activity
 #: model_terms:ir.ui.view,arch_db:project_task_recurring_activity.view_recurring_activity_form
@@ -71,17 +71,17 @@ msgstr "ID"
 #. module: project_task_recurring_activity
 #: model:ir.model.fields,field_description:project_task_recurring_activity.field_recurring_activity____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena na"
+msgstr "Zadnje mijenjano"
 
 #. module: project_task_recurring_activity
 #: model:ir.model.fields,field_description:project_task_recurring_activity.field_recurring_activity__write_uid
 msgid "Last Updated by"
-msgstr "Zadnje ažuriranje izvršio"
+msgstr "Zadnji ažurirao"
 
 #. module: project_task_recurring_activity
 #: model:ir.model.fields,field_description:project_task_recurring_activity.field_recurring_activity__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažuriranje na"
+msgstr "Zadnje ažurirano"
 
 #. module: project_task_recurring_activity
 #: model:ir.model.fields,field_description:project_task_recurring_activity.field_project_task_recurrence__old_date_recurring_task

@@ -70,7 +70,7 @@ msgstr ""
 #. module: project_role
 #: model:ir.model.fields,field_description:project_role.field_project_assignment__message_needaction
 msgid "Action Needed"
-msgstr "Potrebna radnja"
+msgstr "Potrebne radnje"
 
 # taken from hr.po
 #. module: project_role
@@ -136,7 +136,7 @@ msgstr "Tvrtke"
 #. module: project_role
 #: model:ir.model.fields,field_description:project_role.field_project_assignment__company_id
 msgid "Company"
-msgstr "Kompanija"
+msgstr "Tvrtka"
 
 # taken from hr.po
 #. module: project_role
@@ -154,7 +154,7 @@ msgstr "Puni naziv"
 #. module: project_role
 #: model:ir.model,name:project_role.model_res_config_settings
 msgid "Config Settings"
-msgstr "Postavke konfiguracije"
+msgstr "Postavke"
 
 # taken from hr.po
 #. module: project_role
@@ -202,13 +202,13 @@ msgstr "Pratitelji (partneri)"
 #. module: project_role
 #: model_terms:ir.ui.view,arch_db:project_role.project_assignment_search
 msgid "Group By"
-msgstr "Grupiši po..."
+msgstr "Grupiraj po"
 
 # taken from hr.po
 #. module: project_role
 #: model:ir.model.fields,field_description:project_role.field_project_assignment__has_message
 msgid "Has Message"
-msgstr "Ima poruku"
+msgstr "Ima poruka"
 
 #. module: project_role
 #: model:ir.model.fields,field_description:project_role.field_project_assignment__id
@@ -219,13 +219,13 @@ msgstr "ID"
 #. module: project_role
 #: model:ir.model.fields,help:project_role.field_project_assignment__message_needaction
 msgid "If checked, new messages require your attention."
-msgstr "Ako je zakačeno, nove poruke će zahtjevati vašu pažnju"
+msgstr "Ako je označeno, nove poruke traže vašu pažnju."
 
 # taken from hr.po
 #. module: project_role
 #: model:ir.model.fields,help:project_role.field_project_assignment__message_has_error
 msgid "If checked, some messages have a delivery error."
-msgstr "Ako je označeno neke poruke mogu imati grešku u dostavi."
+msgstr "Ako je označeno, neke poruke imaju greške pri isporuci."
 
 # taken from hr.po
 #. module: project_role
@@ -237,25 +237,25 @@ msgstr "Nasljedi zaduženja"
 #. module: project_role
 #: model:ir.model.fields,field_description:project_role.field_project_assignment__message_is_follower
 msgid "Is Follower"
-msgstr "Pratilac"
+msgstr "Je pratitelj"
 
 # taken from hr.po
 #. module: project_role
 #: model:ir.model.fields,field_description:project_role.field_project_assignment____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena na"
+msgstr "Zadnje modificirano"
 
 # taken from hr.po
 #. module: project_role
 #: model:ir.model.fields,field_description:project_role.field_project_assignment__write_uid
 msgid "Last Updated by"
-msgstr "Zadnje ažuriranje izvršio"
+msgstr "Zadnji ažurirao"
 
 # taken from hr.po
 #. module: project_role
 #: model:ir.model.fields,field_description:project_role.field_project_assignment__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažuriranje na"
+msgstr "Zadnje ažurirano"
 
 # taken from hr.po
 #. module: project_role
@@ -273,7 +273,7 @@ msgstr "Ograniči uloge na zaduženja"
 #. module: project_role
 #: model:ir.model.fields,field_description:project_role.field_project_assignment__message_main_attachment_id
 msgid "Main Attachment"
-msgstr "Glavna zakačka"
+msgstr "Glavni prilog"
 
 # taken from hr.po
 #. module: project_role
@@ -285,7 +285,7 @@ msgstr "Greška pri isporuci poruke"
 #. module: project_role
 #: model:ir.model.fields,field_description:project_role.field_project_assignment__message_ids
 msgid "Messages"
-msgstr "Nepročitane poruke"
+msgstr "Poruke"
 
 # taken from hr.po
 #. module: project_role
@@ -303,7 +303,7 @@ msgstr "Naziv"
 #. module: project_role
 #: model:ir.model.fields,field_description:project_role.field_project_assignment__message_needaction_counter
 msgid "Number of Actions"
-msgstr "Broj akcija"
+msgstr "Broj radnji"
 
 # taken from hr.po
 #. module: project_role
@@ -467,10 +467,10 @@ msgstr "Korisniku zaduženje može biti dodijeljeno samo jednom!"
 #. module: project_role
 #: model:ir.model.fields,field_description:project_role.field_project_assignment__website_message_ids
 msgid "Website Messages"
-msgstr "Nepročitane poruke"
+msgstr "Poruke sa webstranica"
 
 # taken from hr.po
 #. module: project_role
 #: model:ir.model.fields,help:project_role.field_project_assignment__website_message_ids
 msgid "Website communication history"
-msgstr "Povijest komunikacije Web stranice"
+msgstr "Povijest komunikacije webstranica"

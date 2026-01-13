@@ -16,7 +16,7 @@ msgstr ""
 #. module: project_sequence
 #: model:ir.model,name:project_sequence.model_res_config_settings
 msgid "Config Settings"
-msgstr "Postavke konfiguracije"
+msgstr "Postavke"
 
 #. module: project_sequence
 #: model:ir.model.fields,field_description:project_sequence.field_project_project__name

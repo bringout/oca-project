@@ -16,7 +16,7 @@ msgstr ""
 #. module: project_tag_multicompany
 #: model:ir.model.fields,field_description:project_tag_multicompany.field_project_tags__company_id
 msgid "Company"
-msgstr "Kompanija"
+msgstr "Preduzeće"
 
 #. module: project_tag_multicompany
 #: model:ir.model,name:project_tag_multicompany.model_project_tags
