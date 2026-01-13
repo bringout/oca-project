@@ -36,17 +36,17 @@ msgstr "ID"
 #. module: project_version
 #: model:ir.model.fields,field_description:project_version.field_project_version____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena na"
 
 #. module: project_version
 #: model:ir.model.fields,field_description:project_version.field_project_version__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnje ažuriranje izvršio"
 
 #. module: project_version
 #: model:ir.model.fields,field_description:project_version.field_project_version__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnje ažuriranje na"
 
 #. module: project_version
 #: model:ir.model.fields,field_description:project_version.field_project_version__name

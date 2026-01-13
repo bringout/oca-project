@@ -65,17 +65,17 @@ msgstr "ID"
 #. module: project_merge
 #: model:ir.model.fields,field_description:project_merge.field_project_task_merge____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena na"
 
 #. module: project_merge
 #: model:ir.model.fields,field_description:project_merge.field_project_task_merge__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnje ažuriranje izvršio"
 
 #. module: project_merge
 #: model:ir.model.fields,field_description:project_merge.field_project_task_merge__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnje ažuriranje na"
 
 #. module: project_merge
 #: model:ir.actions.act_window,name:project_merge.action_project_task_merge

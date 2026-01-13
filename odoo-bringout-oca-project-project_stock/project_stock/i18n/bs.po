@@ -61,7 +61,7 @@ msgstr "Analitičke stavke"
 #. module: project_stock
 #: model:ir.model.fields,field_description:project_stock.field_project_task__analytic_precision
 msgid "Analytic Precision"
-msgstr "Preciznost analitike"
+msgstr "Analitička preciznost"
 
 # taken from hr.po
 #. module: project_stock
@@ -133,7 +133,7 @@ msgstr "Odredišna lokacija"
 #. module: project_stock
 #: model:ir.model.fields.selection,name:project_stock.selection__project_task__stock_state__done
 msgid "Done"
-msgstr "Završeno"
+msgstr "Dovršeno"
 
 # taken from hr.po
 #. module: project_stock
@@ -227,7 +227,7 @@ msgstr "Kretanja proizvoda"
 #. module: project_stock
 #: model:ir.model,name:project_stock.model_stock_move_line
 msgid "Product Moves (Stock Move Line)"
-msgstr "Kretanja proizvoda (stavke skladišnog kretanja)"
+msgstr "Skladišna kretanja proizvoda(stavke)"
 
 # taken from hr.po
 #. module: project_stock
@@ -301,7 +301,7 @@ msgstr "Skladišno kretanje"
 #. module: project_stock
 #: model:ir.model.fields,field_description:project_stock.field_project_task__move_ids
 msgid "Stock Moves"
-msgstr "Skladišna kretanja"
+msgstr "Kretanje zaliha"
 
 # taken from hr.po
 #. module: project_stock
