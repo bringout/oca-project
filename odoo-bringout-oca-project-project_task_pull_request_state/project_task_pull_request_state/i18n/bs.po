@@ -21,7 +21,7 @@ msgstr "Postavke"
 #. module: project_task_pull_request_state
 #: model:ir.model.fields,field_description:project_task_pull_request_state.field_project_project__pr_state_default
 msgid "Default PR State"
-msgstr "Default PR State"
+msgstr ""
 
 #. module: project_task_pull_request_state
 #: model:ir.model.fields,help:project_task_pull_request_state.field_project_project__pr_state_default
@@ -29,8 +29,6 @@ msgid ""
 "Default PR state that will be set when PR URI is added to a task in this "
 "project"
 msgstr ""
-"Default PR state that will be set when PR URI is added to a task in this "
-"project"
 
 #. module: project_task_pull_request_state
 #: model_terms:ir.ui.view,arch_db:project_task_pull_request_state.res_config_settings_view_form
@@ -46,7 +44,7 @@ msgstr "Analiziraj"
 #. module: project_task_pull_request_state
 #: model:ir.model.fields,field_description:project_task_pull_request_state.field_project_task__pr_state
 msgid "PR State"
-msgstr "PR State"
+msgstr ""
 
 #. module: project_task_pull_request_state
 #: model:ir.model,name:project_task_pull_request_state.model_project_project

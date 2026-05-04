@@ -181,7 +181,7 @@ msgstr "Kretanja inventure"
 # taken from hr.po
 #. module: project_stock
 #. odoo-python
-#: code:addons/project_stock/models/project_task.py
+#: code:addons/project_stock/models/project_task.py:0
 #, python-format
 msgid "It is not possible to change this with reserved movements in tasks."
 msgstr ""
@@ -256,7 +256,7 @@ msgstr "Rezervirano"
 # taken from hr.po
 #. module: project_stock
 #. odoo-python
-#: code:addons/project_stock/models/project_task.py
+#: code:addons/project_stock/models/project_task.py:0
 #, python-format
 msgid "Scrap"
 msgstr "Otpis"

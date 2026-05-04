@@ -15,42 +15,42 @@ msgstr ""
 
 #. module: project_scrum
 #. odoo-python
-#: code:addons/project_scrum/models/project_sprint.py
+#: code:addons/project_scrum/models/project_sprint.py:0
 #, python-format
 msgid "1 Month"
 msgstr "1 mjesec"
 
 #. module: project_scrum
 #. odoo-python
-#: code:addons/project_scrum/models/project_sprint.py
+#: code:addons/project_scrum/models/project_sprint.py:0
 #, python-format
 msgid "1 Week"
 msgstr "1 tjedan"
 
 #. module: project_scrum
 #. odoo-python
-#: code:addons/project_scrum/models/project_sprint.py
+#: code:addons/project_scrum/models/project_sprint.py:0
 #, python-format
 msgid "1 Year"
 msgstr "1 godina"
 
 #. module: project_scrum
 #. odoo-python
-#: code:addons/project_scrum/models/project_sprint.py
+#: code:addons/project_scrum/models/project_sprint.py:0
 #, python-format
 msgid "2 Month"
 msgstr "2 meseca"
 
 #. module: project_scrum
 #. odoo-python
-#: code:addons/project_scrum/models/project_sprint.py
+#: code:addons/project_scrum/models/project_sprint.py:0
 #, python-format
 msgid "2 Weeks"
 msgstr "2 nedelje"
 
 #. module: project_scrum
 #. odoo-python
-#: code:addons/project_scrum/models/project_sprint.py
+#: code:addons/project_scrum/models/project_sprint.py:0
 #, python-format
 msgid "2 Years"
 msgstr "2 godine"
@@ -84,9 +84,6 @@ msgid ""
 "                            Sprints\n"
 "                        </span>"
 msgstr ""
-"<span class=\"o_stat_text\">\n"
-"                            Sprints\n"
-"                        </span>"
 
 #. module: project_scrum
 #: model:ir.model.fields,field_description:project_scrum.field_project_sprint__message_needaction
@@ -101,7 +98,7 @@ msgstr "Aktivnosti"
 #. module: project_scrum
 #: model:ir.model.fields,field_description:project_scrum.field_project_sprint__activity_exception_decoration
 msgid "Activity Exception Decoration"
-msgstr "Dekoracija iznimke aktivnosti"
+msgstr "Dekoracija izuzetka aktivnosti"
 
 #. module: project_scrum
 #: model:ir.model.fields,field_description:project_scrum.field_project_sprint__activity_state
@@ -120,7 +117,7 @@ msgstr "Broj priloga"
 
 #. module: project_scrum
 #. odoo-python
-#: code:addons/project_scrum/models/project.py
+#: code:addons/project_scrum/models/project.py:0
 #, python-format
 msgid "Backlog"
 msgstr "Zaostatak"
@@ -142,7 +139,7 @@ msgstr "Kreirano"
 
 #. module: project_scrum
 #. odoo-python
-#: code:addons/project_scrum/models/project_sprint.py
+#: code:addons/project_scrum/models/project_sprint.py:0
 #, python-format
 msgid "Custom"
 msgstr "Prilagođeno"
@@ -170,7 +167,7 @@ msgstr "Opis"
 #. module: project_scrum
 #: model:ir.model.fields,field_description:project_scrum.field_project_sprint__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
 #. module: project_scrum
 #: model:ir.model.fields.selection,name:project_scrum.selection__project_sprint__state__done
@@ -180,16 +177,16 @@ msgstr "Gotovo"
 #. module: project_scrum
 #: model:ir.model.fields.selection,name:project_scrum.selection__project_sprint__state__draft
 msgid "Draft"
-msgstr "U pripremi"
+msgstr "Nacrt"
 
 #. module: project_scrum
 #: model:ir.model.fields,field_description:project_scrum.field_project_sprint__date_end
 msgid "End Date"
-msgstr "Datum završetka"
+msgstr "Završni datum"
 
 #. module: project_scrum
 #. odoo-python
-#: code:addons/project_scrum/models/project_sprint.py
+#: code:addons/project_scrum/models/project_sprint.py:0
 #, python-format
 msgid "Error: End date must be greater than start date!"
 msgstr "Greška: Datum završetka mora biti veći od datuma početka!"
@@ -202,7 +199,7 @@ msgstr "Pratioci"
 #. module: project_scrum
 #: model:ir.model.fields,field_description:project_scrum.field_project_sprint__message_partner_ids
 msgid "Followers (Partners)"
-msgstr "Pratioci (Partneri)"
+msgstr "Pratioci (partneri)"
 
 #. module: project_scrum
 #: model:ir.model.fields,help:project_scrum.field_project_sprint__activity_type_icon
@@ -232,17 +229,17 @@ msgstr "Ikona"
 #. module: project_scrum
 #: model:ir.model.fields,help:project_scrum.field_project_sprint__activity_exception_icon
 msgid "Icon to indicate an exception activity."
-msgstr "Ikona za prikaz iznimki."
+msgstr "Ikona za označavanje izuzetne aktivnosti."
 
 #. module: project_scrum
 #: model:ir.model.fields,help:project_scrum.field_project_sprint__message_needaction
 msgid "If checked, new messages require your attention."
-msgstr "Ako je zakačeno, nove poruke će zahtjevati vašu pažnju"
+msgstr "Ako je označeno, nove poruke zahtijevaju vašu pažnju."
 
 #. module: project_scrum
 #: model:ir.model.fields,help:project_scrum.field_project_sprint__message_has_error
 msgid "If checked, some messages have a delivery error."
-msgstr "Ako je označeno neke poruke mogu imati grešku u dostavi."
+msgstr "Ako je označeno, neke poruke imaju grešku pri dostavi."
 
 #. module: project_scrum
 #: model_terms:ir.ui.view,arch_db:project_scrum.project_sprint_view_search
@@ -252,17 +249,17 @@ msgstr "U Toku"
 #. module: project_scrum
 #: model:ir.model.fields.selection,name:project_scrum.selection__project_sprint__state__in_progress
 msgid "In progress"
-msgstr "U tijeku"
+msgstr "U toku"
 
 #. module: project_scrum
 #: model:ir.model.fields,field_description:project_scrum.field_project_sprint__message_is_follower
 msgid "Is Follower"
-msgstr "Pratilac"
+msgstr "Je pratilac"
 
 #. module: project_scrum
 #: model:ir.model.fields,field_description:project_scrum.field_project_sprint____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 #. module: project_scrum
 #: model:ir.model.fields,field_description:project_scrum.field_project_sprint__write_uid
@@ -277,7 +274,7 @@ msgstr "Zadnje ažurirano"
 #. module: project_scrum
 #: model:ir.model.fields,field_description:project_scrum.field_project_sprint__message_main_attachment_id
 msgid "Main Attachment"
-msgstr "Glavna zakačka"
+msgstr "Glavni prilog"
 
 #. module: project_scrum
 #: model:ir.model.fields,field_description:project_scrum.field_project_sprint__user_ids
@@ -287,7 +284,7 @@ msgstr "Članovi"
 #. module: project_scrum
 #: model:ir.model.fields,field_description:project_scrum.field_project_sprint__message_has_error
 msgid "Message Delivery error"
-msgstr "Greška pri isporuci poruke"
+msgstr "Greška dostave poruke"
 
 #. module: project_scrum
 #: model:ir.model.fields,field_description:project_scrum.field_project_sprint__message_ids
@@ -297,22 +294,22 @@ msgstr "Poruke"
 #. module: project_scrum
 #: model:ir.model.fields,field_description:project_scrum.field_project_sprint__my_activity_date_deadline
 msgid "My Activity Deadline"
-msgstr "Rok za moju aktivnost"
+msgstr "Rok moje aktivnosti"
 
 #. module: project_scrum
 #: model:ir.model.fields,field_description:project_scrum.field_project_sprint__name
 msgid "Name"
-msgstr "Naziv:"
+msgstr "Naziv"
 
 #. module: project_scrum
 #: model:ir.model.fields,field_description:project_scrum.field_project_sprint__activity_date_deadline
 msgid "Next Activity Deadline"
-msgstr "Krajnji rok za sljedeću aktivnost"
+msgstr "Rok sljedeće aktivnosti"
 
 #. module: project_scrum
 #: model:ir.model.fields,field_description:project_scrum.field_project_sprint__activity_summary
 msgid "Next Activity Summary"
-msgstr "Pregled sljedeće aktivnosti"
+msgstr "Sažetak sljedeće aktivnosti"
 
 #. module: project_scrum
 #: model:ir.model.fields,field_description:project_scrum.field_project_sprint__activity_type_id
@@ -332,12 +329,12 @@ msgstr "Broj grešaka"
 #. module: project_scrum
 #: model:ir.model.fields,help:project_scrum.field_project_sprint__message_needaction_counter
 msgid "Number of messages requiring action"
-msgstr "Broj poruka koje zahtijevaju aktivnost"
+msgstr "Broj poruka koje zahtijevaju akciju"
 
 #. module: project_scrum
 #: model:ir.model.fields,help:project_scrum.field_project_sprint__message_has_error_counter
 msgid "Number of messages with delivery error"
-msgstr "Broj poruka sa greškama pri isporuci"
+msgstr "Broj poruka sa greškom pri dostavi"
 
 #. module: project_scrum
 #: model:ir.model,name:project_scrum.model_project_project
@@ -357,7 +354,7 @@ msgstr "Odgovorni korisnik"
 #. module: project_scrum
 #: model:ir.model.fields,field_description:project_scrum.field_project_task__sprint_id
 msgid "Sprint"
-msgstr "Sprint"
+msgstr ""
 
 #. module: project_scrum
 #: model:ir.model.fields,field_description:project_scrum.field_project_project__sprint_count
@@ -376,14 +373,14 @@ msgstr "Stanje sprinta"
 
 #. module: project_scrum
 #. odoo-python
-#: code:addons/project_scrum/models/project.py
+#: code:addons/project_scrum/models/project.py:0
 #, python-format
 msgid "Sprint Timeline"
 msgstr "Vremenska linija sprinta"
 
 #. module: project_scrum
 #. odoo-python
-#: code:addons/project_scrum/models/project.py
+#: code:addons/project_scrum/models/project.py:0
 #, python-format
 msgid "Sprints"
 msgstr "Sprintovi"
@@ -401,7 +398,7 @@ msgstr "Započni"
 #. module: project_scrum
 #: model:ir.model.fields,field_description:project_scrum.field_project_sprint__date_start
 msgid "Start Date"
-msgstr "Početni datum"
+msgstr "Početni Datum"
 
 #. module: project_scrum
 #: model:ir.model.fields,field_description:project_scrum.field_project_sprint__state
@@ -416,8 +413,8 @@ msgid ""
 "Today: Activity date is today\n"
 "Planned: Future activities."
 msgstr ""
-"Status baziran na aktivnostima\n"
-"Zakašnjelo: Rok je već prošao\n"
+"Status na osnovu aktivnosti\n"
+"Isteklo: Rok je već prošao\n"
 "Danas: Datum aktivnosti je danas\n"
 "Planirano: Buduće aktivnosti."
 
@@ -428,7 +425,7 @@ msgstr "Zadatak"
 
 #. module: project_scrum
 #. odoo-python
-#: code:addons/project_scrum/models/project_sprint.py
+#: code:addons/project_scrum/models/project_sprint.py:0
 #, python-format
 msgid "Tasks"
 msgstr "Zadaci"
@@ -440,7 +437,7 @@ msgstr "Broj zadataka"
 
 #. module: project_scrum
 #. odoo-python
-#: code:addons/project_scrum/models/project_task.py
+#: code:addons/project_scrum/models/project_task.py:0
 #, python-format
 msgid "The assignees must be part of the sprint."
 msgstr "Dodeljeni moraju biti deo sprinta."
@@ -448,7 +445,7 @@ msgstr "Dodeljeni moraju biti deo sprinta."
 #. module: project_scrum
 #: model:ir.model.fields,help:project_scrum.field_project_sprint__activity_exception_decoration
 msgid "Type of the exception activity on record."
-msgstr "Vrsta aktivnosti iznimke na zapisu."
+msgstr "Tip izuzetne aktivnosti na zapisu."
 
 #. module: project_scrum
 #: model:ir.actions.server,name:project_scrum.cron_update_sprint_state_ir_actions_server
@@ -458,9 +455,9 @@ msgstr "Ažuriraj stanje sprinta"
 #. module: project_scrum
 #: model:ir.model.fields,field_description:project_scrum.field_project_sprint__website_message_ids
 msgid "Website Messages"
-msgstr "Poruke sa website-a"
+msgstr "Poruke web stranice"
 
 #. module: project_scrum
 #: model:ir.model.fields,help:project_scrum.field_project_sprint__website_message_ids
 msgid "Website communication history"
-msgstr "Povijest komunikacije Web stranice"
+msgstr "Historija komunikacije web stranice"

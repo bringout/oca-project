@@ -15,21 +15,21 @@ msgstr ""
 
 #. module: project_milestone_status
 #. odoo-python
-#: code:addons/project_milestone_status/models/project.py
+#: code:addons/project_milestone_status/models/project.py:0
 #, python-format
 msgid "%(name)s"
-msgstr "%(name)s"
+msgstr ""
 
 #. module: project_milestone_status
 #. odoo-python
-#: code:addons/project_milestone_status/models/project.py
+#: code:addons/project_milestone_status/models/project.py:0
 #, python-format
 msgid "Dedication"
 msgstr "Posvećenost"
 
 #. module: project_milestone_status
 #. odoo-python
-#: code:addons/project_milestone_status/models/project.py
+#: code:addons/project_milestone_status/models/project.py:0
 #, python-format
 msgid "Execution"
 msgstr "Izvršavanje"

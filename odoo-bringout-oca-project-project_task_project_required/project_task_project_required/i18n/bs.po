@@ -47,7 +47,7 @@ msgstr "U toku"
 #. module: project_task_project_required
 #: model_terms:ir.ui.view,arch_db:project_task_project_required.res_config_settings_view_form
 msgid "Require project selection on each task by default"
-msgstr "Require project selection on each task by default"
+msgstr ""
 
 #. module: project_task_project_required
 #: model:ir.model,name:project_task_project_required.model_project_task
@@ -56,7 +56,7 @@ msgstr "Zadatak"
 
 #. module: project_task_project_required
 #. odoo-python
-#: code:addons/project_task_project_required/models/project_task.py
+#: code:addons/project_task_project_required/models/project_task.py:0
 #, python-format
 msgid "You must specify a project for the task."
 msgstr "Moji favoriti"

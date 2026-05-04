@@ -55,7 +55,7 @@ msgstr "Odredišni projekat"
 #. module: project_merge
 #: model:ir.model.fields,field_description:project_merge.field_project_task_merge__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
 #. module: project_merge
 #: model:ir.model.fields,field_description:project_merge.field_project_task_merge__id
@@ -65,7 +65,7 @@ msgstr "ID"
 #. module: project_merge
 #: model:ir.model.fields,field_description:project_merge.field_project_task_merge____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 #. module: project_merge
 #: model:ir.model.fields,field_description:project_merge.field_project_task_merge__write_uid

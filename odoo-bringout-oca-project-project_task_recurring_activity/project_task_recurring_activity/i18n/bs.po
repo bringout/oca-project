@@ -61,7 +61,7 @@ msgstr "Opis"
 #. module: project_task_recurring_activity
 #: model:ir.model.fields,field_description:project_task_recurring_activity.field_recurring_activity__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
 #. module: project_task_recurring_activity
 #: model:ir.model.fields,field_description:project_task_recurring_activity.field_recurring_activity__id
@@ -71,7 +71,7 @@ msgstr "ID"
 #. module: project_task_recurring_activity
 #: model:ir.model.fields,field_description:project_task_recurring_activity.field_recurring_activity____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 #. module: project_task_recurring_activity
 #: model:ir.model.fields,field_description:project_task_recurring_activity.field_recurring_activity__write_uid
@@ -101,7 +101,7 @@ msgstr "Projekat: Kreiraj Recurring Activities"
 #. module: project_task_recurring_activity
 #: model:ir.model,name:project_task_recurring_activity.model_recurring_activity
 msgid "Recurring activity"
-msgstr "Recurring activity"
+msgstr ""
 
 #. module: project_task_recurring_activity
 #: model:ir.model.fields,field_description:project_task_recurring_activity.field_recurring_activity__summary

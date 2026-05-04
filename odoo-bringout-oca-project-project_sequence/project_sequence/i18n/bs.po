@@ -21,7 +21,7 @@ msgstr "Postavke"
 #. module: project_sequence
 #: model:ir.model.fields,field_description:project_sequence.field_project_project__name
 msgid "Name"
-msgstr "Naziv:"
+msgstr "Naziv"
 
 #. module: project_sequence
 #: model:ir.model.fields,help:project_sequence.field_project_project__name

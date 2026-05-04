@@ -16,7 +16,7 @@ msgstr ""
 # taken from hr.po
 #. module: project_role
 #. odoo-python
-#: code:addons/project_role/models/project_assignment.py
+#: code:addons/project_role/models/project_assignment.py:0
 #, python-format
 msgid "%(USER)s as %(ROLE)s"
 msgstr "%(USER)s kao %(ROLE)s"
@@ -24,7 +24,7 @@ msgstr "%(USER)s kao %(ROLE)s"
 # taken from hr.po
 #. module: project_role
 #. odoo-python
-#: code:addons/project_role/models/project_assignment.py
+#: code:addons/project_role/models/project_assignment.py:0
 #, python-format
 msgid "%(USER)s as %(ROLE)s in %(PROJECT)s"
 msgstr "%(USER)s kao %(ROLE)s na %(PROJECT)s"
@@ -32,17 +32,17 @@ msgstr "%(USER)s kao %(ROLE)s na %(PROJECT)s"
 # taken from hr.po
 #. module: project_role
 #. odoo-python
-#: code:addons/project_role/models/project_assignment.py
+#: code:addons/project_role/models/project_assignment.py:0
 #, python-format
 msgid "%(USER)s as %(ROLE)s on %(PROJECT)s"
 msgstr "%(USER)s kao %(ROLE)s na %(PROJECT)s"
 
 #. module: project_role
 #. odoo-python
-#: code:addons/project_role/models/project_role.py
+#: code:addons/project_role/models/project_role.py:0
 #, python-format
 msgid "%(parent)s / %(own)s"
-msgstr "%(parent)s / %(own)s"
+msgstr ""
 
 # taken from hr.po
 #. module: project_role
@@ -70,7 +70,7 @@ msgstr ""
 #. module: project_role
 #: model:ir.model.fields,field_description:project_role.field_project_assignment__message_needaction
 msgid "Action Needed"
-msgstr "Potrebne radnje"
+msgstr "Potrebna akcija"
 
 # taken from hr.po
 #. module: project_role
@@ -87,7 +87,7 @@ msgstr "Arhivirano"
 # taken from hr.po
 #. module: project_role
 #. odoo-python
-#: code:addons/project_role/models/project_assignment.py
+#: code:addons/project_role/models/project_assignment.py:0
 #, python-format
 msgid ""
 "Assignment %(ASSIGNMENT)s conflicts with another assignment: "
@@ -136,7 +136,7 @@ msgstr "Tvrtke"
 #. module: project_role
 #: model:ir.model.fields,field_description:project_role.field_project_assignment__company_id
 msgid "Company"
-msgstr "Tvrtka"
+msgstr "Kompanija"
 
 # taken from hr.po
 #. module: project_role
@@ -184,31 +184,31 @@ msgstr "Opis"
 #. module: project_role
 #: model:ir.model.fields,field_description:project_role.field_project_assignment__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
 # taken from hr.po
 #. module: project_role
 #: model:ir.model.fields,field_description:project_role.field_project_assignment__message_follower_ids
 msgid "Followers"
-msgstr "Pratitelji"
+msgstr "Pratioci"
 
 # taken from hr.po
 #. module: project_role
 #: model:ir.model.fields,field_description:project_role.field_project_assignment__message_partner_ids
 msgid "Followers (Partners)"
-msgstr "Pratitelji (partneri)"
+msgstr "Pratioci (partneri)"
 
 # taken from hr.po
 #. module: project_role
 #: model_terms:ir.ui.view,arch_db:project_role.project_assignment_search
 msgid "Group By"
-msgstr "Grupiraj po"
+msgstr "Grupiši po"
 
 # taken from hr.po
 #. module: project_role
 #: model:ir.model.fields,field_description:project_role.field_project_assignment__has_message
 msgid "Has Message"
-msgstr "Ima poruka"
+msgstr "Ima poruku"
 
 #. module: project_role
 #: model:ir.model.fields,field_description:project_role.field_project_assignment__id
@@ -219,13 +219,13 @@ msgstr "ID"
 #. module: project_role
 #: model:ir.model.fields,help:project_role.field_project_assignment__message_needaction
 msgid "If checked, new messages require your attention."
-msgstr "Ako je označeno, nove poruke traže vašu pažnju."
+msgstr "Ako je označeno, nove poruke zahtijevaju vašu pažnju."
 
 # taken from hr.po
 #. module: project_role
 #: model:ir.model.fields,help:project_role.field_project_assignment__message_has_error
 msgid "If checked, some messages have a delivery error."
-msgstr "Ako je označeno, neke poruke imaju greške pri isporuci."
+msgstr "Ako je označeno, neke poruke imaju grešku pri dostavi."
 
 # taken from hr.po
 #. module: project_role
@@ -237,13 +237,13 @@ msgstr "Nasljedi zaduženja"
 #. module: project_role
 #: model:ir.model.fields,field_description:project_role.field_project_assignment__message_is_follower
 msgid "Is Follower"
-msgstr "Je pratitelj"
+msgstr "Je pratilac"
 
 # taken from hr.po
 #. module: project_role
 #: model:ir.model.fields,field_description:project_role.field_project_assignment____last_update
 msgid "Last Modified on"
-msgstr "Zadnje modificirano"
+msgstr "Zadnja izmjena"
 
 # taken from hr.po
 #. module: project_role
@@ -279,7 +279,7 @@ msgstr "Glavni prilog"
 #. module: project_role
 #: model:ir.model.fields,field_description:project_role.field_project_assignment__message_has_error
 msgid "Message Delivery error"
-msgstr "Greška pri isporuci poruke"
+msgstr "Greška dostave poruke"
 
 # taken from hr.po
 #. module: project_role
@@ -303,7 +303,7 @@ msgstr "Naziv"
 #. module: project_role
 #: model:ir.model.fields,field_description:project_role.field_project_assignment__message_needaction_counter
 msgid "Number of Actions"
-msgstr "Broj radnji"
+msgstr "Broj akcija"
 
 # taken from hr.po
 #. module: project_role
@@ -314,13 +314,13 @@ msgstr "Broj grešaka"
 #. module: project_role
 #: model:ir.model.fields,help:project_role.field_project_assignment__message_needaction_counter
 msgid "Number of messages requiring action"
-msgstr "Broj poruka koje zahtijevaju aktivnost"
+msgstr "Broj poruka koje zahtijevaju akciju"
 
 # taken from hr.po
 #. module: project_role
 #: model:ir.model.fields,help:project_role.field_project_assignment__message_has_error_counter
 msgid "Number of messages with delivery error"
-msgstr "Broj poruka sa greškama pri isporuci"
+msgstr "Broj poruka sa greškom pri dostavi"
 
 # taken from hr.po
 #. module: project_role
@@ -337,7 +337,7 @@ msgstr "Nadređena uloga"
 # taken from hr.po
 #. module: project_role
 #. odoo-python
-#: code:addons/project_role/models/project_role.py
+#: code:addons/project_role/models/project_role.py:0
 #, python-format
 msgid "Please activate first parent role %s"
 msgstr "Molimo prije aktivirajte nadređenu ulogu %s"
@@ -393,7 +393,7 @@ msgstr "Uloga"
 # taken from hr.po
 #. module: project_role
 #. odoo-python
-#: code:addons/project_role/models/project_role.py
+#: code:addons/project_role/models/project_role.py:0
 #, python-format
 msgid "Role \"%s\" conflicts with another role due to same name."
 msgstr "Uloga \"%s\" je u konfliktu sa drugom ulogom zbog istog naziva."
@@ -431,7 +431,7 @@ msgstr "Korisnik"
 # taken from hr.po
 #. module: project_role
 #. odoo-python
-#: code:addons/project_role/models/project_assignment.py
+#: code:addons/project_role/models/project_assignment.py:0
 #, python-format
 msgid "User %(USER)s can not be assigned to role %(ROLE)s on %(PROJECT)s."
 msgstr ""
@@ -440,7 +440,7 @@ msgstr ""
 # taken from hr.po
 #. module: project_role
 #. odoo-python
-#: code:addons/project_role/models/project_assignment.py
+#: code:addons/project_role/models/project_assignment.py:0
 #, python-format
 msgid "User %(USER)s can not be assigned to role %(ROLE)s."
 msgstr "Korisniku %(USER)s nije moguće dodijeliti ulogu %(ROLE)s."
@@ -467,10 +467,10 @@ msgstr "Korisniku zaduženje može biti dodijeljeno samo jednom!"
 #. module: project_role
 #: model:ir.model.fields,field_description:project_role.field_project_assignment__website_message_ids
 msgid "Website Messages"
-msgstr "Poruke sa webstranica"
+msgstr "Poruke web stranice"
 
 # taken from hr.po
 #. module: project_role
 #: model:ir.model.fields,help:project_role.field_project_assignment__website_message_ids
 msgid "Website communication history"
-msgstr "Povijest komunikacije webstranica"
+msgstr "Historija komunikacije web stranice"

@@ -21,12 +21,12 @@ msgstr "Dodaj opis..."
 #. module: project_type
 #: model:ir.model.fields,field_description:project_type.field_project_type__project_ok
 msgid "Can be applied for projects"
-msgstr "Can be applied for projects"
+msgstr ""
 
 #. module: project_type
 #: model:ir.model.fields,field_description:project_type.field_project_type__task_ok
 msgid "Can be applied for tasks"
-msgstr "Can be applied for tasks"
+msgstr ""
 
 #. module: project_type
 #: model:ir.model.fields,field_description:project_type.field_project_type__code
@@ -56,7 +56,7 @@ msgstr "Opis"
 #. module: project_type
 #: model:ir.model.fields,field_description:project_type.field_project_type__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
 #. module: project_type
 #: model:ir.model.fields,field_description:project_type.field_project_type__id
@@ -66,7 +66,7 @@ msgstr "ID"
 #. module: project_type
 #: model:ir.model.fields,field_description:project_type.field_project_type____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 #. module: project_type
 #: model:ir.model.fields,field_description:project_type.field_project_type__write_uid
@@ -81,12 +81,12 @@ msgstr "Zadnje ažurirano"
 #. module: project_type
 #: model:ir.model.fields,field_description:project_type.field_project_type__name
 msgid "Name"
-msgstr "Naziv:"
+msgstr "Naziv"
 
 #. module: project_type
 #: model:ir.model.fields,field_description:project_type.field_project_type__parent_id
 msgid "Parent Type"
-msgstr "Parent Type"
+msgstr ""
 
 #. module: project_type
 #: model:ir.model,name:project_type.model_project_project
@@ -120,7 +120,7 @@ msgstr "Tip"
 
 #. module: project_type
 #. odoo-python
-#: code:addons/project_type/models/project_type.py
+#: code:addons/project_type/models/project_type.py:0
 #, python-format
 msgid "You cannot create recursive project types."
-msgstr "You cannot create recursive project types."
+msgstr ""

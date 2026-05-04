@@ -41,7 +41,7 @@ msgstr "Kreirano"
 #. module: project_stock_product_set
 #: model:ir.model.fields,field_description:project_stock_product_set.field_project_stock_product_set_wizard__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
 #. module: project_stock_product_set
 #: model:ir.model.fields,field_description:project_stock_product_set.field_project_stock_product_set_wizard__id
@@ -51,7 +51,7 @@ msgstr "ID"
 #. module: project_stock_product_set
 #: model:ir.model.fields,field_description:project_stock_product_set.field_project_stock_product_set_wizard____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 #. module: project_stock_product_set
 #: model:ir.model.fields,field_description:project_stock_product_set.field_project_stock_product_set_wizard__write_uid
@@ -96,4 +96,4 @@ msgstr "Zadatak"
 #. module: project_stock_product_set
 #: model:ir.model,name:project_stock_product_set.model_project_stock_product_set_wizard
 msgid "Wizard model to add product set into a task"
-msgstr "Wizard model to add product set into a task"
+msgstr ""

@@ -29,7 +29,7 @@ msgstr "Kreirano"
 #. module: project_task_material
 #: model:ir.model.fields,field_description:project_task_material.field_project_task_material__display_name
 msgid "Display Name"
-msgstr "Prikaži naziv"
+msgstr "Naziv za prikaz"
 
 #. module: project_task_material
 #: model:ir.model.fields,field_description:project_task_material.field_project_task_material__id
@@ -40,7 +40,7 @@ msgstr "ID"
 #. module: project_task_material
 #: model:ir.model.fields,field_description:project_task_material.field_project_task_material____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 # taken from hr.po
 #. module: project_task_material
@@ -81,7 +81,7 @@ msgstr "Količina"
 # taken from hr.po
 #. module: project_task_material
 #. odoo-python
-#: code:addons/project_task_material/models/project.py
+#: code:addons/project_task_material/models/project.py:0
 #, python-format
 msgid "Quantity of material consumed must be greater than 0."
 msgstr "Količina iskorištenog materijala mora biti veća od 0."

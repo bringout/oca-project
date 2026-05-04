@@ -16,7 +16,7 @@ msgstr ""
 #. module: project_stock_analytic_tag
 #: model:ir.model.fields,field_description:project_stock_analytic_tag.field_project_task__stock_analytic_tag_ids
 msgid "Move Analytic Tags"
-msgstr "Move Analytic Tags"
+msgstr ""
 
 #. module: project_stock_analytic_tag
 #: model:ir.model,name:project_stock_analytic_tag.model_stock_move

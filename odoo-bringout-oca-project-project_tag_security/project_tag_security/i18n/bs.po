@@ -21,7 +21,7 @@ msgstr "Allowed Projekats"
 #. module: project_tag_security
 #: model_terms:ir.ui.view,arch_db:project_tag_security.project_tags_form_view
 msgid "Empty for having all the projects allowed"
-msgstr "Empty for having all the projects allowed"
+msgstr ""
 
 #. module: project_tag_security
 #: model:ir.model,name:project_tag_security.model_project_tags

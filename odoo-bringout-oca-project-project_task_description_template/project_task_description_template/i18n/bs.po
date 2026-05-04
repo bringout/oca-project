@@ -16,17 +16,17 @@ msgstr ""
 #. module: project_task_description_template
 #: model:ir.model.fields,field_description:project_task_description_template.field_project_task_description_template__active
 msgid "Active"
-msgstr "Aktivan"
+msgstr "Aktivno"
 
 #. module: project_task_description_template
 #: model_terms:ir.actions.act_window,help:project_task_description_template.project_task_description_template_action
 msgid "Click to create a new description template."
-msgstr "Click to create a new description template."
+msgstr ""
 
 #. module: project_task_description_template
 #: model:ir.model.fields,field_description:project_task_description_template.field_project_task_description_template__company_id
 msgid "Company"
-msgstr "Preduzeće"
+msgstr "Kompanija"
 
 #. module: project_task_description_template
 #: model:ir.model.fields,field_description:project_task_description_template.field_project_task_description_template__create_uid
@@ -46,12 +46,12 @@ msgstr "Opis"
 #. module: project_task_description_template
 #: model:ir.model.fields,field_description:project_task_description_template.field_project_task__description_template_id
 msgid "Description Template"
-msgstr "Description Template"
+msgstr ""
 
 #. module: project_task_description_template
 #: model:ir.model.fields,field_description:project_task_description_template.field_project_task_description_template__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
 #. module: project_task_description_template
 #: model:ir.model.fields,field_description:project_task_description_template.field_project_task_description_template__id
@@ -61,7 +61,7 @@ msgstr "ID"
 #. module: project_task_description_template
 #: model:ir.model.fields,field_description:project_task_description_template.field_project_task_description_template____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 #. module: project_task_description_template
 #: model:ir.model.fields,field_description:project_task_description_template.field_project_task_description_template__write_uid
@@ -76,7 +76,7 @@ msgstr "Zadnje ažurirano"
 #. module: project_task_description_template
 #: model:ir.model.fields,field_description:project_task_description_template.field_project_task_description_template__name
 msgid "Name"
-msgstr "Naziv:"
+msgstr "Naziv"
 
 #. module: project_task_description_template
 #: model:ir.model,name:project_task_description_template.model_project_task_description_template

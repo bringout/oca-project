@@ -16,7 +16,7 @@ msgstr ""
 # taken from hr.po
 #. module: project_timesheet_time_control
 #. odoo-python
-#: code:addons/project_timesheet_time_control/wizards/hr_timesheet_switch.py
+#: code:addons/project_timesheet_time_control/wizards/hr_timesheet_switch.py:0
 #, python-format
 msgid ""
 "%d running timers found. Cannot know which one to stop. Please stop them "
@@ -83,12 +83,12 @@ msgstr "Stavka analitike"
 #. module: project_timesheet_time_control
 #: model_terms:ir.ui.view,arch_db:project_timesheet_time_control.hr_timesheet_switch_form
 msgid "Cancel"
-msgstr "Odustani"
+msgstr "Otkaži"
 
 # taken from hr.po
 #. module: project_timesheet_time_control
 #. odoo-python
-#: code:addons/project_timesheet_time_control/models/account_analytic_line.py
+#: code:addons/project_timesheet_time_control/models/account_analytic_line.py:0
 #, python-format
 msgid ""
 "Cannot stop timer %d because it is not running. Refresh the page and check "
@@ -101,7 +101,7 @@ msgstr ""
 #. module: project_timesheet_time_control
 #: model:ir.model.fields,field_description:project_timesheet_time_control.field_hr_timesheet_switch__company_id
 msgid "Company"
-msgstr "Tvrtka"
+msgstr "Kompanija"
 
 # taken from hr.po
 #. module: project_timesheet_time_control
@@ -166,13 +166,13 @@ msgstr "Kontoliraj koji gumb će se prikazati."
 #. module: project_timesheet_time_control
 #: model:ir.model.fields,field_description:project_timesheet_time_control.field_hr_timesheet_switch____last_update
 msgid "Last Modified on"
-msgstr "Zadnje uređivano"
+msgstr "Zadnja izmjena"
 
 # taken from hr.po
 #. module: project_timesheet_time_control
 #: model:ir.model.fields,field_description:project_timesheet_time_control.field_hr_timesheet_switch__write_uid
 msgid "Last Updated by"
-msgstr "Zadnje ažurirano od"
+msgstr "Zadnji ažurirao"
 
 # taken from hr.po
 #. module: project_timesheet_time_control
@@ -183,12 +183,12 @@ msgstr "Zadnje ažurirano"
 #. module: project_timesheet_time_control
 #: model:ir.model,name:project_timesheet_time_control.model_hr_timesheet_time_control_mixin
 msgid "Mixin for records related with timesheet lines"
-msgstr "Mixin for records related with timesheet lines"
+msgstr ""
 
 # taken from hr.po
 #. module: project_timesheet_time_control
 #. odoo-python
-#: code:addons/project_timesheet_time_control/models/hr_timesheet_time_control_mixin.py
+#: code:addons/project_timesheet_time_control/models/hr_timesheet_time_control_mixin.py:0
 #, python-format
 msgid ""
 "No running timer found in %(model)s %(record)s. Refresh the page and check "
@@ -234,7 +234,7 @@ msgstr "Nastavi"
 # taken from hr.po
 #. module: project_timesheet_time_control
 #. odoo-python
-#: code:addons/project_timesheet_time_control/models/account_analytic_line.py
+#: code:addons/project_timesheet_time_control/models/account_analytic_line.py:0
 #, python-format
 msgid "Resume work"
 msgstr "Nastavi rad"
@@ -266,7 +266,7 @@ msgstr "Datum"
 # taken from hr.po
 #. module: project_timesheet_time_control
 #. odoo-python
-#: code:addons/project_timesheet_time_control/models/hr_timesheet_time_control_mixin.py
+#: code:addons/project_timesheet_time_control/models/hr_timesheet_time_control_mixin.py:0
 #, python-format
 msgid "Start work"
 msgstr "Pokreni rad"

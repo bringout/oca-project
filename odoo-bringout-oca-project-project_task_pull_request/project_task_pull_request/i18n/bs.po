@@ -22,12 +22,12 @@ msgstr "PR zahtijevana stanja"
 #. module: project_task_pull_request
 #: model:ir.model.fields,field_description:project_task_pull_request.field_project_task__pr_uri
 msgid "PR URI"
-msgstr "PR URI"
+msgstr ""
 
 # taken from hr.po
 #. module: project_task_pull_request
 #. odoo-python
-#: code:addons/project_task_pull_request/models/project_task.py
+#: code:addons/project_task_pull_request/models/project_task.py:0
 #, python-format
 msgid ""
 "Please add the URI for the pull request before moving the task to this "

@@ -16,7 +16,7 @@ msgstr ""
 #. module: project_task_note
 #: model_terms:ir.ui.view,arch_db:project_task_note.view_task_form2
 msgid "Insert internal notes here"
-msgstr "Insert internal notes here"
+msgstr ""
 
 #. module: project_task_note
 #: model_terms:ir.ui.view,arch_db:project_task_note.view_task_form2

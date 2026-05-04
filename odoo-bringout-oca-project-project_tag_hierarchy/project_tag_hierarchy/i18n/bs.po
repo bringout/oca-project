@@ -26,7 +26,7 @@ msgstr "Putanja nadređenih"
 #. module: project_tag_hierarchy
 #: model:ir.model.fields,field_description:project_tag_hierarchy.field_project_tags__parent_id
 msgid "Parent Tag"
-msgstr "Parent Tag"
+msgstr ""
 
 #. module: project_tag_hierarchy
 #: model:ir.model,name:project_tag_hierarchy.model_project_tags
@@ -35,7 +35,7 @@ msgstr "Oznake projekta"
 
 #. module: project_tag_hierarchy
 #. odoo-python
-#: code:addons/project_tag_hierarchy/models/project_tags.py
+#: code:addons/project_tag_hierarchy/models/project_tags.py:0
 #, python-format
 msgid "You can not create recursive tags."
-msgstr "You can not create recursive tags."
+msgstr ""

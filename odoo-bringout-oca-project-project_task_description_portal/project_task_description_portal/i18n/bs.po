@@ -24,8 +24,6 @@ msgid ""
 "Description that will be shown to portal users if 'Use Portal Description' "
 "is enabled"
 msgstr ""
-"Description that will be shown to portal users if 'Use Portal Description' "
-"is enabled"
 
 #. module: project_task_description_portal
 #: model:ir.model.fields,help:project_task_description_portal.field_project_task__use_portal_description
@@ -33,8 +31,6 @@ msgid ""
 "If enabled, portal users will see the portal description instead of the "
 "standard one"
 msgstr ""
-"If enabled, portal users will see the portal description instead of the "
-"standard one"
 
 #. module: project_task_description_portal
 #: model:ir.model.fields,field_description:project_task_description_portal.field_project_task__portal_description
@@ -49,4 +45,4 @@ msgstr "Zadatak"
 #. module: project_task_description_portal
 #: model:ir.model.fields,field_description:project_task_description_portal.field_project_task__use_portal_description
 msgid "Use Portal Description"
-msgstr "Use Portal Description"
+msgstr ""

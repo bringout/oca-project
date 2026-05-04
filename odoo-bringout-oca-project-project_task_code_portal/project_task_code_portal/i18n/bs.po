@@ -15,14 +15,14 @@ msgstr ""
 
 #. module: project_task_code_portal
 #. odoo-python
-#: code:addons/project_task_code_portal/controllers/portal.py
+#: code:addons/project_task_code_portal/controllers/portal.py:0
 #, python-format
 msgid "No task with this code."
-msgstr "No task with this code."
+msgstr ""
 
 #. module: project_task_code_portal
 #. odoo-python
-#: code:addons/project_task_code_portal/controllers/portal.py
+#: code:addons/project_task_code_portal/controllers/portal.py:0
 #, python-format
 msgid "Search in Task code"
 msgstr "Pretraži in Zadatak code"

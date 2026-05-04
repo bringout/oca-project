@@ -61,12 +61,12 @@ msgstr "Projekat"
 #. module: sale_project_copy_tasks
 #: model:ir.model,name:sale_project_copy_tasks.model_sale_order
 msgid "Sales Order"
-msgstr "Prodajni nalog"
+msgstr "Narudžba"
 
 #. module: sale_project_copy_tasks
 #: model:ir.model,name:sale_project_copy_tasks.model_sale_order_line
 msgid "Sales Order Line"
-msgstr "Red prodajnog naloga"
+msgstr "Stavka narudžbe"
 
 #. module: sale_project_service_tracking_copy_tasks
 #: model:ir.model.fields,field_description:sale_project_service_tracking_copy_tasks.field_product_product__service_tracking
