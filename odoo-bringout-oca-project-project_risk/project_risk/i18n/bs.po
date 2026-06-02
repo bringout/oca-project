@@ -66,7 +66,7 @@ msgstr "Opis"
 #. module: project_risk
 #: model:ir.model.fields,field_description:project_risk.field_project_risk__display_name
 msgid "Display Name"
-msgstr "Naziv za prikaz"
+msgstr "Naziv prikaza"
 
 #. module: project_risk
 #: model:ir.model.fields.selection,name:project_risk.selection__project_risk__state__draft
@@ -136,17 +136,17 @@ msgstr "Je pratilac"
 #. module: project_risk
 #: model:ir.model.fields,field_description:project_risk.field_project_risk____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena"
+msgstr "Zadnji put izmijenjeno"
 
 #. module: project_risk
 #: model:ir.model.fields,field_description:project_risk.field_project_risk__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnji put ažurirao"
 
 #. module: project_risk
 #: model:ir.model.fields,field_description:project_risk.field_project_risk__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnji put ažurirano"
 
 #. module: project_risk
 #: model:ir.model.fields.selection,name:project_risk.selection__project_risk__probability__4

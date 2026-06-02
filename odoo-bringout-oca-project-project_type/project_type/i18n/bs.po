@@ -56,7 +56,7 @@ msgstr "Opis"
 #. module: project_type
 #: model:ir.model.fields,field_description:project_type.field_project_type__display_name
 msgid "Display Name"
-msgstr "Naziv za prikaz"
+msgstr "Naziv prikaza"
 
 #. module: project_type
 #: model:ir.model.fields,field_description:project_type.field_project_type__id
@@ -66,17 +66,17 @@ msgstr "ID"
 #. module: project_type
 #: model:ir.model.fields,field_description:project_type.field_project_type____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena"
+msgstr "Zadnji put izmijenjeno"
 
 #. module: project_type
 #: model:ir.model.fields,field_description:project_type.field_project_type__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnji put ažurirao"
 
 #. module: project_type
 #: model:ir.model.fields,field_description:project_type.field_project_type__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnji put ažurirano"
 
 #. module: project_type
 #: model:ir.model.fields,field_description:project_type.field_project_type__name

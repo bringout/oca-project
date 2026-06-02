@@ -30,7 +30,7 @@ msgstr "Odgovoran"
 #. module: project_merge
 #: model_terms:ir.ui.view,arch_db:project_merge.project_task_merge_view_form
 msgid "Cancel"
-msgstr "Otkaži"
+msgstr "Odustani"
 
 #. module: project_merge
 #: model:ir.model.fields,field_description:project_merge.field_project_task_merge__create_new_task
@@ -55,7 +55,7 @@ msgstr "Odredišni projekat"
 #. module: project_merge
 #: model:ir.model.fields,field_description:project_merge.field_project_task_merge__display_name
 msgid "Display Name"
-msgstr "Naziv za prikaz"
+msgstr "Naziv prikaza"
 
 #. module: project_merge
 #: model:ir.model.fields,field_description:project_merge.field_project_task_merge__id
@@ -65,17 +65,17 @@ msgstr "ID"
 #. module: project_merge
 #: model:ir.model.fields,field_description:project_merge.field_project_task_merge____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena"
+msgstr "Zadnji put izmijenjeno"
 
 #. module: project_merge
 #: model:ir.model.fields,field_description:project_merge.field_project_task_merge__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnji put ažurirao"
 
 #. module: project_merge
 #: model:ir.model.fields,field_description:project_merge.field_project_task_merge__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnji put ažurirano"
 
 #. module: project_merge
 #: model:ir.actions.act_window,name:project_merge.action_project_task_merge

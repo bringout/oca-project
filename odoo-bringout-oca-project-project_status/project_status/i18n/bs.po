@@ -72,7 +72,7 @@ msgstr "Opis"
 #. module: project_status
 #: model:ir.model.fields,field_description:project_status.field_project_status__display_name
 msgid "Display Name"
-msgstr "Naziv za prikaz"
+msgstr "Naziv prikaza"
 
 #. module: project_status
 #: model:ir.model.fields,field_description:project_status.field_project_status__fold
@@ -97,17 +97,17 @@ msgstr "Razlozi"
 #. module: project_status
 #: model:ir.model.fields,field_description:project_status.field_project_status____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena"
+msgstr "Zadnji put izmijenjeno"
 
 #. module: project_status
 #: model:ir.model.fields,field_description:project_status.field_project_status__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnji put ažurirao"
 
 #. module: project_status
 #: model:ir.model.fields,field_description:project_status.field_project_status__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnji put ažurirano"
 
 #. module: project_status
 #: model:ir.model.fields,field_description:project_status.field_project_status__name

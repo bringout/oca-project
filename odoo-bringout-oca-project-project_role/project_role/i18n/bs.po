@@ -130,7 +130,7 @@ msgstr "Podređene uloge"
 #. module: project_role
 #: model:ir.model,name:project_role.model_res_company
 msgid "Companies"
-msgstr "Tvrtke"
+msgstr "Kompanije"
 
 # taken from hr.po
 #. module: project_role
@@ -154,7 +154,7 @@ msgstr "Puni naziv"
 #. module: project_role
 #: model:ir.model,name:project_role.model_res_config_settings
 msgid "Config Settings"
-msgstr "Postavke"
+msgstr "Postavke konfiguracije"
 
 # taken from hr.po
 #. module: project_role
@@ -184,7 +184,7 @@ msgstr "Opis"
 #. module: project_role
 #: model:ir.model.fields,field_description:project_role.field_project_assignment__display_name
 msgid "Display Name"
-msgstr "Naziv za prikaz"
+msgstr "Naziv prikaza"
 
 # taken from hr.po
 #. module: project_role
@@ -243,19 +243,19 @@ msgstr "Je pratilac"
 #. module: project_role
 #: model:ir.model.fields,field_description:project_role.field_project_assignment____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena"
+msgstr "Zadnji put izmijenjeno"
 
 # taken from hr.po
 #. module: project_role
 #: model:ir.model.fields,field_description:project_role.field_project_assignment__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnji put ažurirao"
 
 # taken from hr.po
 #. module: project_role
 #: model:ir.model.fields,field_description:project_role.field_project_assignment__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnji put ažurirano"
 
 # taken from hr.po
 #. module: project_role

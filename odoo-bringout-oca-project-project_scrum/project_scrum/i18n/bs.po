@@ -167,7 +167,7 @@ msgstr "Opis"
 #. module: project_scrum
 #: model:ir.model.fields,field_description:project_scrum.field_project_sprint__display_name
 msgid "Display Name"
-msgstr "Naziv za prikaz"
+msgstr "Naziv prikaza"
 
 #. module: project_scrum
 #: model:ir.model.fields.selection,name:project_scrum.selection__project_sprint__state__done
@@ -259,17 +259,17 @@ msgstr "Je pratilac"
 #. module: project_scrum
 #: model:ir.model.fields,field_description:project_scrum.field_project_sprint____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena"
+msgstr "Zadnji put izmijenjeno"
 
 #. module: project_scrum
 #: model:ir.model.fields,field_description:project_scrum.field_project_sprint__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnji put ažurirao"
 
 #. module: project_scrum
 #: model:ir.model.fields,field_description:project_scrum.field_project_sprint__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnji put ažurirano"
 
 #. module: project_scrum
 #: model:ir.model.fields,field_description:project_scrum.field_project_sprint__message_main_attachment_id

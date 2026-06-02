@@ -39,7 +39,7 @@ msgstr "Analitika"
 #. module: project_stock
 #: model:ir.model.fields,field_description:project_stock.field_project_task__stock_analytic_distribution
 msgid "Analytic Distribution"
-msgstr "Analitička distribucija"
+msgstr "Analitička raspodjela"
 
 #. module: project_stock
 #: model:ir.model.fields,field_description:project_stock.field_project_task__analytic_distribution_search
@@ -61,7 +61,7 @@ msgstr "Analitičke stavke"
 #. module: project_stock
 #: model:ir.model.fields,field_description:project_stock.field_project_task__analytic_precision
 msgid "Analytic Precision"
-msgstr "Preciznost analitike"
+msgstr "Analitička preciznost"
 
 # taken from hr.po
 #. module: project_stock
@@ -79,7 +79,7 @@ msgstr "Dodijeljeno"
 #. module: project_stock
 #: model:ir.model.fields.selection,name:project_stock.selection__project_task__stock_state__cancel
 msgid "Cancel"
-msgstr "Otkaži"
+msgstr "Odustani"
 
 # taken from hr.po
 #. module: project_stock
